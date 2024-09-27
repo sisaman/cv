@@ -111,15 +111,15 @@ design:
   font_size: 10pt
   page_size: a4paper
   color: black
-  disable_external_link_icons: true
-  disable_page_numbering: true
+  disable_external_link_icons: false
+  disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: true
+  disable_last_updated_date: false
   last_updated_date_style: Last updated in TODAY
   header_font_size: 25 pt
-  text_alignment: left-aligned
-  seperator_between_connections: $|$
-  use_icons_for_connections: false
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
   margins:
     page:
       top: 2 cm
