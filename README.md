@@ -3,7 +3,7 @@
 - Email: [sina.sajadmanesh@gmail.com](mailto:sina.sajadmanesh@gmail.com)
 - Location: Zurich, Switzerland
 - Website: [sajadmanesh.com](https://sajadmanesh.com/)
-- LinkedIn: [sina.sajadmanesh](https://linkedin.com/in/sina.sajadmanesh)
+- LinkedIn: [sajadmanesh](https://linkedin.com/in/sajadmanesh)
 - GitHub: [sisaman](https://github.com/sisaman)
 
 
@@ -21,11 +21,9 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 - [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## Swiss Federal Institute of Technology (EPFL), PhD in Electrical Engineering
 
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([a link to somewhere](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+- May 2019 – Aug 2023
 
 # Experience
 
