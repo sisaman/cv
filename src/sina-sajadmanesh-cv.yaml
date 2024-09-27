@@ -1,9 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/sinaatalay/rendercv/refs/heads/main/schema.json
+
 cv:
-  name: John Doe
+  name: Sina Sajadmanesh
   location: Your Location
-  email: youremail@yourdomain.com
+  email: sina.sajadmanesh@gmail.com
   phone: tel:+90-541-999-99-99
-  website: https://yourwebsite.com/
+  website: https://sajadmanesh.com/
   social_networks:
     - network: LinkedIn
       username: yourusername

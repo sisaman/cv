@@ -28,7 +28,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            rendercv_output/*_CV.pdf
-            rendercv_output/*_CV.tex
+            rendercv_output/*-cv.pdf
+            rendercv_output/*-cv.tex
           generate_release_notes: true
           make_latest: true
