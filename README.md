@@ -1,16 +1,16 @@
-# Sina Sajadmanesh's CV
+# John Doe's CV
 
 - Phone: +90 541 999 99 99
-- Email: [sina.sajadmanesh@gmail.com](mailto:sina.sajadmanesh@gmail.com)
+- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
 - Location: Your Location
-- Website: [sajadmanesh.com](https://sajadmanesh.com/)
+- Website: [yourwebsite.com](https://yourwebsite.com/)
 - LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
 - GitHub: [yourusername](https://github.com/yourusername)
 
 
 # Welcome to RenderCV!
 
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
+[RenderCV](https://rendercv.com) is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **Markdown syntax support** and **complete control over the LaTeX code**.
 
 The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
 
@@ -25,7 +25,7 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 ## University of Pennsylvania, BS in Computer Science
 
 - Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
+- GPA: 3.9/4.0 ([a link to somewhere](https://example.com))
 - **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
 
 # Experience
