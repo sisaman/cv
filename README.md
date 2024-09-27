@@ -1,11 +1,10 @@
-# John Doe's CV
+# Sina Sajadmanesh's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: [sina.sajadmanesh@gmail.com](mailto:sina.sajadmanesh@gmail.com)
+- Location: Zurich, Switzerland
+- Website: [sajadmanesh.com](https://sajadmanesh.com/)
+- LinkedIn: [sina.sajadmanesh](https://linkedin.com/in/sina.sajadmanesh)
+- GitHub: [sisaman](https://github.com/sisaman)
 
 
 # Welcome to RenderCV!
