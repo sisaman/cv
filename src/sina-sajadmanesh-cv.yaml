@@ -57,7 +57,7 @@ cv:
         # end_date: 2007-08
         highlights:
           - Developed an end-to-end open-world classification pipeline using OpenMMLab frameworks and HuggingFace to train and test privacy-preserving \textbf{vision foundation models} for Sony's next-generation AI products.
-          - Improved the speed of training and inference} of models by optimizing the code and leveraging distributed computing.
+          - Improved the speed of training and inference of models by optimizing the code and leveraging distributed computing.
       - company: Microsoft
         position: Software Engineer Intern
         location: Redmond, WA
