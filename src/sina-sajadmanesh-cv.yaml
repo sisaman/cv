@@ -109,7 +109,7 @@ design:
   theme: engineeringresumes
   font: Charter
   font_size: 10pt
-  page_size: letterpaper
+  page_size: a4paper
   color: black
   disable_external_link_icons: true
   disable_page_numbering: true
