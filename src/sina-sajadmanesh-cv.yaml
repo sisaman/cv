@@ -30,15 +30,15 @@ cv:
       - bullet: '[Here](https://docs.rendercv.com/user_guide/),
           you can find a comprehensive user guide for RenderCV.'
     education:
-      - institution: University of Pennsylvania
-        area: Computer Science
-        degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
-        highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
+      - institution: Swiss Federal Institute of Technology (EPFL)
+        area: Electrical Engineering
+        degree: PhD
+        start_date: 2019-05
+        end_date: 2023-08
+        # highlights:
+        #   - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
+        #   - '**Coursework:** Computer Architecture, Comparison
+        #     of Learning Algorithms, Computational Theory'
     experience:
       - company: Apple
         position: Software Engineer
