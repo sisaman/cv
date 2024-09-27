@@ -58,23 +58,16 @@ cv:
         highlights:
           - Developed an end-to-end open-world classification pipeline using OpenMMLab frameworks and HuggingFace to train and test privacy-preserving \textbf{vision foundation models} for Sony's next-generation AI products.
           - Improved the speed of training and inference of models by optimizing the code and leveraging distributed computing.
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
+      - company: Idiap Research Institute
+        position: Research Assistant
+        location: Martigny, Switzerland
+        start_date: 2019-05
+        end_date: 2023-08
         highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-            to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
+          - '**3 published papers** in top-tier conferences (CCS, USENIX Security, and NDSS) with **185+ citations**'
+          - '**7 invited talks** at top universities and research institutions, including Imperial College London, University of Illinois, and Twitter'
+          - '**6 open-source projects** with **110+ stars** on GitHub'
+          
     publications:
       - title: 3D Finite Element Analysis of No-Insulation Coils
         authors:
