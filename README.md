@@ -25,6 +25,14 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 
 - May 2019 – Aug 2023
 
+## Sharif University of Technology, MSc in Information Technology Engineering
+
+- Sept 2014 – Sept 2016
+
+## University of Isfahan, BSc in Computer Software Engineering
+
+- Sept 2009 – Feb 2014
+
 # Experience
 
 ## Apple, Software Engineer
