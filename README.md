@@ -35,13 +35,12 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 
 # Experience
 
-## Apple, Software Engineer
+## Sony AI, AI Engineer
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- Oct 2023 – present
+- Zurich, Switzerland
+- Developed an end-to-end open-world classification pipeline using OpenMMLab frameworks and HuggingFace to train and test privacy-preserving \textbf{vision foundation models} for Sony's next-generation AI products.
+- Improved the speed of training and inference of models by optimizing the code and leveraging distributed computing.
 
 ## Microsoft, Software Engineer Intern
 
