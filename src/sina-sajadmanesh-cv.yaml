@@ -50,19 +50,14 @@ cv:
         start_date: 2009-09
         end_date: 2014-02
     experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
+      - company: Sony AI
+        position: AI Engineer
+        location: Zurich, Switzerland
+        start_date: 2023-10
+        # end_date: 2007-08
         highlights:
-          - Reduced time to render user buddy lists by 75% by
-            implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating
-            a tool to extract metadata from saved chat transcripts
-            and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward
-            compatibility for search
+          - Developed an end-to-end open-world classification pipeline using OpenMMLab frameworks and HuggingFace to train and test privacy-preserving \textbf{vision foundation models} for Sony's next-generation AI products.
+          - Improved the speed of training and inference} of models by optimizing the code and leveraging distributed computing.
       - company: Microsoft
         position: Software Engineer Intern
         location: Redmond, WA
