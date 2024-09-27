@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/sinaatalay/rendercv/refs/heads/main/schema.json
 
 cv:
-  name: John Doe
-  location: Your Location
-  email: youremail@yourdomain.com
-  phone: tel:+90-541-999-99-99
-  website: https://yourwebsite.com/
+  name: Sina Sajadmanesh
+  location: Zurich, Switzerland
+  email: sina.sajadmanesh@gmail.com
+  # phone: tel:+90-541-999-99-99
+  website: https://sajadmanesh.com/
   social_networks:
     - network: LinkedIn
-      username: yourusername
+      username: sina.sajadmanesh
     - network: GitHub
-      username: yourusername
+      username: sisaman
   sections:
     welcome_to_RenderCV!:
       - '[RenderCV](https://rendercv.com) is a LaTeX-based CV/resume
