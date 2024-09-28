@@ -12,33 +12,12 @@ cv:
     - network: GitHub
       username: sisaman
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://rendercv.com) is a LaTeX-based CV/resume
-        version-control and maintenance app. It allows you to
-        create a high-quality CV or resume as a PDF file from
-        a YAML file, with **Markdown syntax support** and **complete
-        control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section
-          contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*,
-          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-          *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and
-          start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-          you can find a comprehensive user guide for RenderCV.'
     education:
       - institution: Swiss Federal Institute of Technology (EPFL)
         area: Electrical Engineering
         degree: PhD
         start_date: 2019-05
         end_date: 2023-08
-        # highlights:
-        #   - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-        #   - '**Coursework:** Computer Architecture, Comparison
-        #     of Learning Algorithms, Computational Theory'
       - institution: Sharif University of Technology
         area: Information Technology Engineering
         degree: MSc
@@ -49,6 +28,7 @@ cv:
         degree: BSc
         start_date: 2009-09
         end_date: 2014-02
+        
     experience:
       - company: Sony AI
         position: AI Engineer
@@ -56,18 +36,24 @@ cv:
         start_date: 2023-10
         # end_date: 2007-08
         highlights:
-          - Developed an end-to-end open-world classification pipeline using OpenMMLab frameworks and HuggingFace to train and test privacy-preserving \textbf{vision foundation models} for Sony's next-generation AI products.
-          - Improved the speed of training and inference of models by optimizing the code and leveraging distributed computing.
+          - Working on privacy-preserving vision foundation models
+          - Implemented easy-to-use APIs for vision foundation model inference and deployment
+          - Developed a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks, new model architectures, and mixed-precision and distributed training
+          - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
+          - Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
       - company: Idiap Research Institute
         position: Research Assistant
         location: Martigny, Switzerland
         start_date: 2019-05
         end_date: 2023-08
         highlights:
+          - Worked as a doctoral researcher on differentially private machine learning with graph neural networks
           - '**3 published papers** in top-tier conferences (CCS, USENIX Security, and NDSS) with **185+ citations**'
           - '**7 invited talks** at top universities and research institutions, including Imperial College, UIC, and Twitter'
           - '**6 open-source projects** with **110+ stars** on GitHub'
           - '**1 short course** taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)'
+          - '**Finalist** in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe'
+          - '**Received a travel grant** to attend [CISPA Summer School 2022](https://cispa.de/en/summer-school-2022) on Trustworthy Artificial Intelligence.'
       - company: The Alan Turing Institute
         position: Visiting Collaborator
         location: London, UK
@@ -81,17 +67,38 @@ cv:
         start_date: 2022-03
         end_date: 2022-05
         highlights:
-          - Developed a novel privacy-preserving federated learning framework for neural bandit models under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite
+          - Developed a novel privacy-preserving **federated learning** framework for **neural bandit models** under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite
       - company: Sharif University of Technology
         position: Research Assistant
         location: Tehran, Iran
         start_date: 2014-11
         end_date: 2019-05
         highlights:
+          - Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.
           - '**4 published papers** in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with **430+ citations**'
           - '**5+ press releases** in top-tier media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)'
           - '**2 open-source projects** with **20+ stars** on GitHub'
           - '**1 semester course** taught on "Fundamentals of Programming with Python" at Sharif University of Technology'
+    
+    skills and expertise:
+      - label: Programming Languages
+        details: Python, C++, Java, SQL, Shell, \LaTeX
+      - label: Machine Learning and AI
+        details: PyTorch, TensorFlow, HuggingFace, OpenMMLab, PyTorch-Lightning
+      - label: MLOps and DevOps
+        details: Weights & Biases, Docker, GitHub, Dask, Neptune, Linux
+      - label: Privacy-Enhancing Technologies
+        details: Flower, Opacus, Auto-DP
+
+    community and professional service:
+      - label: Invited Speaker
+        details: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
+      - label: Organizing Committee
+        details: '[Privacy and Fairness in AI for Health](https://priv-fair-ai-uk.github.io)  (2023)'
+      - label: Program Committee
+        details: '[AAAI PPAI](https://ppai-workshop.github.io) (2024), [ACM WiseML](https://wisec2023.surrey.ac.uk/wiseml2023) (2023), [ICLR PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [ICLR DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)'
+      - label: Reviewer
+        details: '[NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [IEEE TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG Conference](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [IEEE TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [ACM TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWW Journal](https://www.springer.com/journal/11280) (2018)'
     publications:
       - title: '[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761)'
         authors:
@@ -102,7 +109,7 @@ cv:
       - title: '[Privacy-Preserving Machine Learning on Graphs](https://infoscience.epfl.ch/record/306602)'
         authors:
           - '***Sina Sajadmanesh***'
-        journal: Swiss Federal Institute of Technology (EPFL) - Doctoral Thesis
+        journal: Doctoral Thesis - Swiss Federal Institute of Technology (EPFL)
         date: 2023-08
       - title: '[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh)'
         authors:
@@ -162,36 +169,7 @@ cv:
           - Ali Khodadadi
         journal: 'International Conference on Advances in Social Networks Analysis and Mining (**ASONAM**)'
         date: 2016-08
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed an electronic classroom where multiple users
-            can simultaneously view and draw on a "chalkboard"
-            with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed a desktop calendar with globally shared
-            and synchronized calendars, allowing users to schedule
-            meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
-        highlights:
-          - Built a UNIX-style OS with a scheduler, file system,
-            text editor, and calculator
-          - 'Tools Used: C'
-    technologies:
-      - label: Programming Languages
-        details: Python, C++, Java, SQL, Shell, \LaTeX
-      - label: Machine Learning and AI
-        details: PyTorch, TensorFlow, HuggingFace, OpenMMLab, PyTorch-Lightning
-      - label: ML Ops and DevOps
-        details: Weights & Biases, Docker, GitHub, Dask, Neptune, Linux
-      - label: Privacy-Enhancing Technologies
-        details: Flower, Opacus, Auto-DP
+
 design:
   theme: engineeringresumes
   font: Charter
