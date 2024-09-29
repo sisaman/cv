@@ -82,51 +82,51 @@
 
 ## [ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761) 
 - Mar 2024
-- ***Sina Sajadmanesh***, Daniel Gatica-Perez
+- Sina Sajadmanesh, Daniel Gatica-Perez
 - ACM International Conference on Web Search and Data Mining (**WSDM**)
 
 ## [Privacy-Preserving Machine Learning on Graphs](https://infoscience.epfl.ch/record/306602) 
 - Aug 2023
-- ***Sina Sajadmanesh***
+- Sina Sajadmanesh
 - Doctoral Thesis - Swiss Federal Institute of Technology (EPFL)
 
 ## [GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh) 
 - Aug 2023
-- ***Sina Sajadmanesh***, Ali Shahin Shamsabadi, Aurélien Bellet, et al.
+- Sina Sajadmanesh, Ali Shahin Shamsabadi, Aurélien Bellet, et al.
 - USENIX Security Symposium (**USENIX Security**)
 
 ## [Locally Private Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3460120.3484565) 
 - Nov 2021
-- ***Sina Sajadmanesh***, Daniel Gatica-Perez
+- Sina Sajadmanesh, Daniel Gatica-Perez
 - ACM Conference on Computer and Communications Security (**CCS**)
 
 ## [When Differential Privacy Meets Graph Neural Networks](https://arxiv.org/abs/2006.05535v3) 
 - June 2020
-- ***Sina Sajadmanesh***, Daniel Gatica-Perez
+- Sina Sajadmanesh, Daniel Gatica-Perez
 - Technical Report, ArXiv e-prints
 
 ## [A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics](https://ieeexplore.ieee.org/document/8962332) 
 - May 2020
-- Seyed Ali Osia, Ali Shahin Shamsabadi, ***Sina Sajadmanesh***, et al.
+- Seyed Ali Osia, Ali Shahin Shamsabadi, Sina Sajadmanesh, et al.
 - IEEE Internet of Things Journal (**IoTJ**)
 
 ## [Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://dl.acm.org/authorize?N680282) 
 - Aug 2019
-- ***Sina Sajadmanesh***, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
+- Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
 - ACM Transactions on Knowledge Discovery from Data (**TKDD**)
 
 ## [NPGLM: A Non-Parametric Method for Temporal Link Prediction](https://arxiv.org/abs/1706.06783) 
 - June 2017
-- ***Sina Sajadmanesh***, Jiawei Zhang, Hamid R. Rabiee
+- Sina Sajadmanesh, Jiawei Zhang, Hamid R. Rabiee
 - Technical Report, ArXiv e-prints
 
 ## [Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137) 
 - Apr 2017
-- ***Sina Sajadmanesh***, Sina Jafarzadeh, Seyed Ali Ossia, et al.
+- Sina Sajadmanesh, Sina Jafarzadeh, Seyed Ali Ossia, et al.
 - International World Wide Web Conference Companion (**WWW**)
 
 ## [Predicting Anchor Links between Heterogeneous Social Networks](https://dl.acm.org/doi/pdf/10.5555/3192424.3192453) 
 - Aug 2016
-- ***Sina Sajadmanesh***, Hamid R. Rabiee, Ali Khodadadi
+- Sina Sajadmanesh, Hamid R. Rabiee, Ali Khodadadi
 - International Conference on Advances in Social Networks Analysis and Mining (**ASONAM**)
 
