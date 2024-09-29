@@ -102,18 +102,18 @@ cv:
     publications:
       - title: '[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Daniel Gatica-Perez
         journal: 'ACM International Conference on Web Search and Data Mining (**WSDM**)'
         date: 2024-03
       - title: '[Privacy-Preserving Machine Learning on Graphs](https://infoscience.epfl.ch/record/306602)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
         journal: Doctoral Thesis - Swiss Federal Institute of Technology (EPFL)
         date: 2023-08
       - title: '[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Ali Shahin Shamsabadi
           - Aurélien Bellet
           - et al.
@@ -121,13 +121,13 @@ cv:
         date: 2023-08
       - title: '[Locally Private Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3460120.3484565)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Daniel Gatica-Perez
         journal: 'ACM Conference on Computer and Communications Security (**CCS**)'
         date: 2021-11
       - title: '[When Differential Privacy Meets Graph Neural Networks](https://arxiv.org/abs/2006.05535v3)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Daniel Gatica-Perez
         journal: 'Technical Report, ArXiv e-prints'
         date: 2020-06
@@ -135,13 +135,13 @@ cv:
         authors:
           - Seyed Ali Osia
           - Ali Shahin Shamsabadi
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - et al.
         journal: 'IEEE Internet of Things Journal (**IoTJ**)'
         date: 2020-05
       - title: '[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://dl.acm.org/authorize?N680282)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Sogol Bazargani
           - Jiawei Zhang
           - Hamid R. Rabiee
@@ -149,14 +149,14 @@ cv:
         date: 2019-08
       - title: '[NPGLM: A Non-Parametric Method for Temporal Link Prediction](https://arxiv.org/abs/1706.06783)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Jiawei Zhang
           - Hamid R. Rabiee
         journal: 'Technical Report, ArXiv e-prints'
         date: 2017-06
       - title: '[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Sina Jafarzadeh
           - Seyed Ali Ossia
           - et al.
@@ -164,7 +164,7 @@ cv:
         date: 2017-04
       - title: '[Predicting Anchor Links between Heterogeneous Social Networks](https://dl.acm.org/doi/pdf/10.5555/3192424.3192453)'
         authors:
-          - '***Sina Sajadmanesh***'
+          - Sina Sajadmanesh
           - Hamid R. Rabiee
           - Ali Khodadadi
         journal: 'International Conference on Advances in Social Networks Analysis and Mining (**ASONAM**)'
