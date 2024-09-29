@@ -53,7 +53,7 @@ cv:
           - '**6 open-source projects** with **110+ stars** on GitHub'
           - '**1 short course** taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)'
           - '**Finalist** in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe'
-          - '**Received a travel grant** to attend [CISPA Summer School 2022](https://cispa.de/en/summer-school-2022) on Trustworthy Artificial Intelligence.'
+          # - '**Received a travel grant** to attend [CISPA Summer School 2022](https://cispa.de/en/summer-school-2022) on Trustworthy Artificial Intelligence.'
       - company: The Alan Turing Institute
         position: Visiting Collaborator
         location: London, UK
@@ -96,9 +96,9 @@ cv:
       - label: Organizing Committee
         details: '[Privacy and Fairness in AI for Health](https://priv-fair-ai-uk.github.io)  (2023)'
       - label: Program Committee
-        details: '[AAAI PPAI](https://ppai-workshop.github.io) (2024), [ACM WiseML](https://wisec2023.surrey.ac.uk/wiseml2023) (2023), [ICLR PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [ICLR DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)'
+        details: '[PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)'
       - label: Reviewer
-        details: '[NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [IEEE TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG Conference](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [IEEE TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [ACM TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWW Journal](https://www.springer.com/journal/11280) (2018)'
+        details: '[NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)'
     publications:
       - title: '[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761)'
         authors:
@@ -182,7 +182,7 @@ design:
   disable_last_updated_date: false
   last_updated_date_style: Last updated in TODAY
   header_font_size: 25 pt
-  text_alignment: justified
+  text_alignment: left-aligned
   seperator_between_connections: ''
   use_icons_for_connections: true
   margins:
@@ -200,7 +200,7 @@ design:
       date_and_location_width: 4.5 cm
     highlights_area:
       top: 0.10 cm
-      left: 0 cm
+      left: 5 pt
       vertical_between_bullet_points: 0.10 cm
     header:
       vertical_between_name_and_connections: 5 pt
