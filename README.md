@@ -43,7 +43,6 @@
 - **6 open-source projects** with **110+ stars** on GitHub
 - **1 short course** taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)
 - **Finalist** in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe
-- **Received a travel grant** to attend [CISPA Summer School 2022](https://cispa.de/en/summer-school-2022) on Trustworthy Artificial Intelligence.
 
 ## The Alan Turing Institute, Visiting Collaborator
 
@@ -77,8 +76,8 @@
 
 - Invited Speaker: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
 - Organizing Committee: [Privacy and Fairness in AI for Health](https://priv-fair-ai-uk.github.io)  (2023)
-- Program Committee: [AAAI PPAI](https://ppai-workshop.github.io) (2024), [ACM WiseML](https://wisec2023.surrey.ac.uk/wiseml2023) (2023), [ICLR PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [ICLR DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)
-- Reviewer: [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [IEEE TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG Conference](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [IEEE TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [ACM TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWW Journal](https://www.springer.com/journal/11280) (2018)
+- Program Committee: [PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)
+- Reviewer: [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)
 # Publications
 
 ## [ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761) 
