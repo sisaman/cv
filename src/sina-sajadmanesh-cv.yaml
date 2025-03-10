@@ -182,15 +182,14 @@ cv:
 design:
   theme: engineeringresumes
   text:
-    font_family: Charter
     font_size: 10pt
-    alignment: left-aligned
+    alignment: left
   page:
-    size: a4paper
-    top_margin: 2 cm
-    bottom_margin: 2 cm
-    left_margin: 2 cm
-    right_margin: 2 cm
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
     show_page_numbering: true
     show_last_updated_date: true
   colors:
@@ -199,7 +198,7 @@ design:
     use_external_link_icon: false
   header:
     name_font_size: 25pt
-    seperator_between_connections: ''
+    separator_between_connections: ''
     use_icons_for_connections: true
   # margins:
   #   section_title:
