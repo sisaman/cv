@@ -13,6 +13,7 @@
 #let design-colors-name = rgb(0, 0, 0)
 #let design-colors-connections = rgb(0, 0, 0)
 #let design-colors-links = rgb(0, 0, 0)
+#let design-section-titles-font-family = "XCharter"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.2em
@@ -28,8 +29,10 @@
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
 #let design-header-use-icons-for-connections = true
+#let design-header-name-font-family = "XCharter"
 #let design-header-name-font-size = 25pt
 #let design-header-name-bold = false
+#let design-header-connections-font-family = "XCharter"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
 #let design-header-use-icons-for-connections = true
@@ -107,6 +110,9 @@
   leading: design-text-leading,
   justify: justify,
 )
+#set enum(
+  spacing: design-entries-vertical-space-between-entries,
+)
 
 // Highlights settings:
 #let highlights(..content) = {
@@ -181,6 +187,7 @@
   #set par(spacing: 0pt)
   #set align(design-header-alignment)
   #set text(
+    font: design-header-name-font-family,
     weight: header-font-weight,
     size: design-header-name-font-size,
     fill: design-colors-name,
@@ -201,6 +208,7 @@
   #set align(left)
   #set text(size: (1em / 1.2)) // reset
   #set text(
+    font: design-section-titles-font-family,
     size: (design-section-titles-font-size),
     weight: section-title-font-weight,
     fill: design-colors-section-titles,
@@ -285,6 +293,8 @@
 }
 
 #let connections(connections-list) = context {
+  set text(fill: design-colors-connections, font: design-header-connections-font-family)
+  set par(leading: design-text-leading*1.7, justify: false)
   let list-of-connections = ()
   let separator = (
     h(design-header-horizontal-space-between-connections / 2, weak: true)
@@ -316,8 +326,6 @@
     list-of-connections.push(connections-list.slice(starting-index, ending-index).join(separator))
     starting-index = ending-index
   }
-  set text(fill: design-colors-connections)
-  set par(leading: design-text-leading*1.7, justify: false)
   align(list-of-connections.join(linebreak()), design-header-alignment)
   v(design-header-vertical-space-between-connections-and-first-section - design-section-titles-vertical-space-above)
 }
@@ -455,6 +463,7 @@
 
 == Education
 
+
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
@@ -520,6 +529,7 @@
 
 
 == Experience
+
 
 #two-col-entry(
   left-content: [
@@ -599,6 +609,7 @@
 
 == Skills and Expertise
 
+
 #one-col-entry(
   content: [#strong[Programming Languages:] Python, C++, Java, SQL, Shell, \\LaTeX]
 )
@@ -617,6 +628,7 @@
 
 
 == Community and Professional Service
+
 
 #one-col-entry(
   content: [#strong[Invited Speaker:] Imperial College London \(2023, 2020\), University of Illinois at Chicago \(2022\), L3S Research Center \(2022\), Graph Neural Networks User Group Meetup \(2021\), Twitter Machine Learning Seminar \(2021\)]
@@ -637,6 +649,7 @@
 
 == Publications
 
+
 #two-col-entry(
   left-content: [
     #strong[Argus: A Compact and Versatile Foundation Model for Vision]
@@ -649,7 +662,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 
-#v(design-highlights-top-margin - design-text-leading)The IEEE/CVF Conference on Computer Vision and Pattern Recognition \(#strong[CVPR]\)])
+#v(design-highlights-top-margin - design-text-leading)The IEEE\/CVF Conference on Computer Vision and Pattern Recognition \(#strong[CVPR]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
