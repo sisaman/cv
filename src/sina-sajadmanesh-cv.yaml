@@ -204,17 +204,16 @@ design:
     horizontal_space_between_connections: 10pt
     buttom_margin: 5pt
   section_titles:
-    top_margin: 0.3cm
-    bottom_margin: 0.2cm
+    vertical_space_above: 0.3cm
+    vertical_space_below: 0.2cm
   entries:
-    left_margin: 0cm
-    right_margin: 0cm
+    left_and_right_margin: 0cm
     vertical_space_between_entries: 0.2cm
     date_and_location_width: 4.5cm
   highlights:
     top_margin: 0.10cm
     left_margin: 5pt
-    vertical_space_between_bullet_points: 0.10cm
+    vertical_space_between_highlights: 0.10cm
 
 locale:
   page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
