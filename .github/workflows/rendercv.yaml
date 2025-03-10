@@ -24,13 +24,13 @@ jobs:
       - name: RenderCV
         run: |
           cd src
-          cv_file=$(find .  -maxdepth 1 -type f -name "*-cv.yaml" | head -n 1)
+          cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
           if [ -z "$cv_file" ]; then
             echo "No RenderCV file found!"
             exit 1
           fi
           cd ..
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex
+          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --typst-path ${cv_file%.yaml}.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -42,7 +42,7 @@ jobs:
           base: HEAD
           filters: |
             cv:
-              - '*-cv.tex'
+              - '*_CV.typ'
               - 'README.md'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
