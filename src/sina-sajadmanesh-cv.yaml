@@ -201,7 +201,7 @@ design:
     name_font_size: 25pt
     separator_between_connections: ''
     use_icons_for_connections: true
-    horizontal_space_between_connections: 10pt
+    horizontal_space_between_connections: 5pt
   # margins:
   #   section_title:
   #     top: 0.3 cm
