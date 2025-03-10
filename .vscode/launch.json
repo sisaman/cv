@@ -15,7 +15,9 @@
         "--pdf-path",
         "sina-sajadmanesh-cv.pdf",
         "--markdown-path",
-        "README.md"
+        "README.md",
+        "--typst-path",
+        "src/sina-sajadmanesh-cv.typ"
       ]
     }
   ]
