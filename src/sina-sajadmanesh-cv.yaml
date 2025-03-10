@@ -108,7 +108,7 @@ cv:
           - Sina Sajadmanesh
           - et al.
         journal: 'The IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)'
-        date: 2025-6
+        date: 2025-06
       - title: '[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761)'
         authors:
           - Sina Sajadmanesh
