@@ -12,7 +12,7 @@
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(0, 0, 0)
 #let design-colors-connections = rgb(0, 0, 0)
-#let design-colors-links = rgb(0, 0, 0)
+#let design-colors-links = rgb(3, 28, 48)
 #let design-section-titles-font-family = "XCharter"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
@@ -36,24 +36,24 @@
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
 #let design-header-use-icons-for-connections = true
-#let design-header-horizontal-space-between-connections = 10pt
+#let design-header-horizontal-space-between-connections = 8pt
 #let design-header-separator-between-connections = ""
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
 #let design-highlights-top-margin = 0.25cm
 #let design-highlights-left-margin = 0cm
-#let design-highlights-vertical-space-between-highlights = 0.19cm
+#let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
-#let design-entries-vertical-space-between-entries = 0.4cm
+#let design-entries-vertical-space-between-entries = 1.5em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0cm
 #let design-page-top-margin = 2cm
 #let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 2cm
-#let design-page-right-margin = 2cm
+#let design-page-left-margin = 1.8cm
+#let design-page-right-margin = 1.8cm
 #let design-page-show-last-updated-date = true
 #let design-page-show-page-numbering = true
 #let design-links-underline = false
@@ -541,7 +541,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Working on privacy-preserving vision foundation models],[Implemented easy-to-use APIs for vision foundation model inference and deployment],[Developed a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks, new model architectures, and mixed-precision and distributed training],[Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP],[Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs],)
+    #v(design-highlights-top-margin);#highlights([Working on multimodal foundation models],[Implemented easy-to-use APIs for vision foundation model inference and deployment],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks, new model architectures, and mixed-precision and distributed training],[Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP],[Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs],)
   ],
 )
 
