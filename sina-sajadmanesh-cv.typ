@@ -611,7 +611,7 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming Languages:] Python, C++, Java, SQL, Shell, \\LaTeX]
+  content: [#strong[Programming Languages:] Python, C++, Java, SQL, Shell, LaTeX]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

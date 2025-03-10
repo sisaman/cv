@@ -68,7 +68,7 @@
 
 # Skills and Expertise
 
-- Programming Languages: Python, C++, Java, SQL, Shell, \LaTeX
+- Programming Languages: Python, C++, Java, SQL, Shell, LaTeX
 - Machine Learning and AI: PyTorch, TensorFlow, HuggingFace, OpenMMLab, PyTorch-Lightning
 - MLOps and DevOps: Weights & Biases, Docker, GitHub, Dask, Neptune, Linux
 - Privacy-Enhancing Technologies: Flower, Opacus, Auto-DP
