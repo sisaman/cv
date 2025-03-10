@@ -200,22 +200,21 @@ design:
     name_font_size: 25pt
     separator_between_connections: ''
     use_icons_for_connections: true
-  # margins:
-  #   section_title:
-  #     top: 0.3 cm
-  #     bottom: 0.2 cm
-  #   entry_area:
-  #     left_and_right: 0 cm
-  #     vertical_between: 0.2 cm
-  #     date_and_location_width: 4.5 cm
-  #   highlights_area:
-  #     top: 0.10 cm
-  #     left: 5 pt
-  #     vertical_between_bullet_points: 0.10 cm
-  #   header:
-  #     vertical_between_name_and_connections: 5 pt
-  #     bottom: 5 pt
-  #     horizontal_between_connections: 10 pt
+    vertical_space_between_name_and_connections: 5pt
+    horizontal_space_between_connections: 10pt
+    buttom_margin: 5pt
+  section_titles:
+    top_margin: 0.3cm
+    bottom_margin: 0.2cm
+  entries:
+    left_margin: 0cm
+    right_margin: 0cm
+    vertical_space_between_entries: 0.2cm
+    date_and_location_width: 4.5cm
+  highlights:
+    top_margin: 0.10cm
+    left_margin: 5pt
+    vertical_space_between_bullet_points: 0.10cm
 
 locale:
   page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
