@@ -82,7 +82,7 @@ cv:
     
     skills and expertise:
       - label: Programming Languages
-        details: Python, C++, Java, SQL, Shell, \LaTeX
+        details: Python, C++, Java, SQL, Shell, LaTeX
       - label: Machine Learning and AI
         details: PyTorch, TensorFlow, HuggingFace, OpenMMLab, PyTorch-Lightning
       - label: MLOps and DevOps
