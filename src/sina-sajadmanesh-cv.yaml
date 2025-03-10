@@ -195,7 +195,7 @@ design:
   colors:
     text: black
   links:
-    use_external_link_icon: false
+    use_external_link_icon: true
     underline: false
   header:
     name_font_size: 25pt
