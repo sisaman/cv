@@ -36,9 +36,9 @@ cv:
         start_date: 2023-10
         # end_date: 2007-08
         highlights:
-          - Working on privacy-preserving vision foundation models
+          - Working on multimodal foundation models
           - Implemented easy-to-use APIs for vision foundation model inference and deployment
-          - Developed a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks, new model architectures, and mixed-precision and distributed training
+          - Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks, new model architectures, and mixed-precision and distributed training
           - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
           - Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
       - company: Idiap Research Institute
@@ -188,12 +188,13 @@ design:
     size: a4
     top_margin: 2cm
     bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
     show_page_numbering: true
     show_last_updated_date: true
   colors:
     text: black
+    links: 031c30
   links:
     use_external_link_icon: true
     underline: false
@@ -201,23 +202,11 @@ design:
     name_font_size: 25pt
     separator_between_connections: ''
     use_icons_for_connections: true
-    horizontal_space_between_connections: 10pt
-  # margins:
-  #   section_title:
-  #     top: 0.3 cm
-  #     bottom: 0.2 cm
-  #   entry_area:
-  #     left_and_right: 0 cm
-  #     vertical_between: 0.2 cm
-  #     date_and_location_width: 4.5 cm
-  #   highlights_area:
-  #     top: 0.10 cm
-  #     left: 5 pt
-  #     vertical_between_bullet_points: 0.10 cm
-  #   header:
-  #     vertical_between_name_and_connections: 5 pt
-  #     bottom: 5 pt
-  #     horizontal_between_connections: 10 pt
+    horizontal_space_between_connections: 8pt
+  highlights:
+    vertical_space_between_highlights: 0.25cm
+  entries:
+    vertical_space_between_entries: 1.5em
 
 locale:
   page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
