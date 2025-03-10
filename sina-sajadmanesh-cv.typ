@@ -656,7 +656,7 @@
 
   ],
   right-content: [
-    2025-6
+    June 2025
   ],
 )
 #one-col-entry(content:[

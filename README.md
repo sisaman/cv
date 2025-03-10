@@ -81,7 +81,7 @@
 # Publications
 
 ## Argus: A Compact and Versatile Foundation Model for Vision 
-- 2025-6
+- June 2025
 - Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 - The IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
 
