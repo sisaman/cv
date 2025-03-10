@@ -202,7 +202,7 @@ design:
     use_icons_for_connections: true
     vertical_space_between_name_and_connections: 5pt
     horizontal_space_between_connections: 10pt
-    buttom_margin: 5pt
+    vertical_space_between_connections_and_first_section: 5pt
   section_titles:
     vertical_space_above: 0.3cm
     vertical_space_below: 0.2cm
