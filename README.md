@@ -29,7 +29,7 @@
 - Zurich, Switzerland
 - Working on multimodal foundation models
 - Implemented easy-to-use APIs for vision foundation model inference and deployment
-- Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks, new model architectures, and mixed-precision and distributed training
+- Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training
 - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
 - Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
 

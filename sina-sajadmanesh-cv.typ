@@ -533,7 +533,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[AI Engineer], Sony AI -- Zurich, Switzerland
+    #strong[Sony AI], AI Engineer -- Zurich, Switzerland
   ],
   right-content: [
     Oct 2023 – present
@@ -541,14 +541,14 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Working on multimodal foundation models],[Implemented easy-to-use APIs for vision foundation model inference and deployment],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks, new model architectures, and mixed-precision and distributed training],[Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP],[Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs],)
+    #v(design-highlights-top-margin);#highlights([Working on multimodal foundation models],[Implemented easy-to-use APIs for vision foundation model inference and deployment],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training],[Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP],[Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Research Assistant], Idiap Research Institute -- Martigny, Switzerland
+    #strong[Idiap Research Institute], Research Assistant -- Martigny, Switzerland
   ],
   right-content: [
     May 2019 – Aug 2023
@@ -563,7 +563,7 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Visiting Collaborator], The Alan Turing Institute -- London, UK
+    #strong[The Alan Turing Institute], Visiting Collaborator -- London, UK
   ],
   right-content: [
     Mar 2023 – Mar 2023
@@ -578,7 +578,7 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Research Intern], Brave Software -- Remote
+    #strong[Brave Software], Research Intern -- Remote
   ],
   right-content: [
     Mar 2022 – May 2022
@@ -593,7 +593,7 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Research Assistant], Sharif University of Technology -- Tehran, Iran
+    #strong[Sharif University of Technology], Research Assistant -- Tehran, Iran
   ],
   right-content: [
     Nov 2014 – May 2019
