@@ -75,7 +75,7 @@
 # Community and Professional Service
 
 - Invited Speaker: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
-- Organizing Committee: [Privacy and Fairness in AI for Health](https://priv-fair-ai-uk.github.io)  (2023)
+- Organizing Committee: [Privacy and Fairness in AI for Health](https://private-fair-ai.github.io/)  (2023)
 - Program Committee: [PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023/) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)
 - Reviewer: [TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) (2025), [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)
 # Publications

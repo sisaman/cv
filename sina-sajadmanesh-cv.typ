@@ -635,7 +635,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Organizing Committee:] #link("https://priv-fair-ai-uk.github.io")[Privacy and Fairness in AI for Health]  \(2023\)]
+  content: [#strong[Organizing Committee:] #link("https://private-fair-ai.github.io/")[Privacy and Fairness in AI for Health]  \(2023\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
