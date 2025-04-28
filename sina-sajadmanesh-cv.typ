@@ -3,7 +3,7 @@
 
 #let name = "Sina Sajadmanesh"
 #let locale-catalog-page-numbering-style = context { "Sina Sajadmanesh - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Mar 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Apr 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
@@ -643,7 +643,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Reviewer:] #link("https://neurips.cc")[NeurIPS] \(2024\), #link("https://dl.acm.org/journal/imwut")[IMWUT] \(2024\), #link("https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858")[TDSC] \(2023\), #link("https://logconference.org")[LoG] \(2023, 2022\), #link("http://aistats.org/aistats2023")[AISTATS] \(2023\), #link("https://www.journals.elsevier.com/artificial-intelligence")[AIJ] \(2022\), #link("https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317")[TBD] \(2021\), #link("https://dl.acm.org/journal/tist")[TIST] \(2020\), #link("https://www.springer.com/journal/13278")[SNAM] \(2020\), #link("https://www.springer.com/journal/11280")[WWWJ] \(2018\)]
+  content: [#strong[Reviewer:] #link("https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206")[TIFS] \(2025\), #link("https://neurips.cc")[NeurIPS] \(2024\), #link("https://dl.acm.org/journal/imwut")[IMWUT] \(2024\), #link("https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858")[TDSC] \(2023\), #link("https://logconference.org")[LoG] \(2023, 2022\), #link("http://aistats.org/aistats2023")[AISTATS] \(2023\), #link("https://www.journals.elsevier.com/artificial-intelligence")[AIJ] \(2022\), #link("https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317")[TBD] \(2021\), #link("https://dl.acm.org/journal/tist")[TIST] \(2020\), #link("https://www.springer.com/journal/13278")[SNAM] \(2020\), #link("https://www.springer.com/journal/11280")[WWWJ] \(2018\)]
 )
 
 
