@@ -94,7 +94,7 @@ cv:
       - label: Invited Speaker
         details: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
       - label: Organizing Committee
-        details: '[Privacy and Fairness in AI for Health](https://priv-fair-ai-uk.github.io)  (2023)'
+        details: '[Privacy and Fairness in AI for Health](https://private-fair-ai.github.io/)  (2023)'
       - label: Program Committee
         details: '[PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023/) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)'
       - label: Reviewer
