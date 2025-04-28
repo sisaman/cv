@@ -639,7 +639,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Program Committee:] #link("https://ppai-workshop.github.io")[PPAI] \(2024\), #link("https://wisec2023.surrey.ac.uk/wiseml2023")[WiseML] \(2023\), #link("https://pair2struct-workshop.github.io")[PAIR2Struct] \(2022\), #link("https://dp-ml.github.io/2021-workshop-ICLR")[DPML] \(2021\)]
+  content: [#strong[Program Committee:] #link("https://ppai-workshop.github.io")[PPAI] \(2024\), #link("https://wisec2023.surrey.ac.uk/wiseml2023/")[WiseML] \(2023\), #link("https://pair2struct-workshop.github.io")[PAIR2Struct] \(2022\), #link("https://dp-ml.github.io/2021-workshop-ICLR")[DPML] \(2021\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
