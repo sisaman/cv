@@ -3,7 +3,7 @@
 
 #let name = "Sina Sajadmanesh"
 #let locale-catalog-page-numbering-style = context { "Sina Sajadmanesh - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Apr 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in June 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
@@ -541,7 +541,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Working on multimodal foundation models],[Implemented easy-to-use APIs for vision foundation model inference and deployment],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training],[Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP],[Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs],)
+    #v(design-highlights-top-margin);#highlights([Working on vision-language and multimodal foundation models],[Implemented easy-to-use APIs for vision foundation model inference and deployment],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training],[Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP],[Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs],)
   ],
 )
 
@@ -556,7 +556,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Worked as a doctoral researcher on differentially private machine learning with graph neural networks],[#strong[3 published papers] in top-tier conferences \(CCS, USENIX Security, and NDSS\) with #strong[185+ citations]],[#strong[7 invited talks] at top universities and research institutions, including Imperial College, UIC, and Twitter],[#strong[6 open-source projects] with #strong[110+ stars] on GitHub],[#strong[1 short course] taught on \"Trustworthy Machine Learning\" at #link("https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/")[Artificial Intelligence Doctoral Academy]],[#strong[Finalist] in #link("https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb")[CSAW Applied Research Competition] for the best paper award in computer security in Europe],)
+    #v(design-highlights-top-margin);#highlights([Worked as a doctoral researcher on differentially private machine learning with graph neural networks],[#strong[3 published papers] in top-tier conferences \(CCS, USENIX Security, and WSDM\) with #strong[255+ citations]],[#strong[7 invited talks] at top universities and research institutions, including Imperial College, UIC, and Twitter],[#strong[6 open-source projects] with #strong[110+ stars] on GitHub],[#strong[1 short course] taught on \"Trustworthy Machine Learning\" at #link("https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/")[Artificial Intelligence Doctoral Academy]],[#strong[Finalist] in #link("https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb")[CSAW Applied Research Competition] for the best paper award in computer security in Europe],)
   ],
 )
 
@@ -601,7 +601,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.],[#strong[4 published papers] in top-tier venues \(WWW, TKDD, IoTJ, ASONAM\) with #strong[430+ citations]],[#strong[5+ press releases] in top-tier media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]],[#strong[2 open-source projects] with #strong[20+ stars] on GitHub],[#strong[1 semester course] taught on \"Fundamentals of Programming with Python\" at Sharif University of Technology],)
+    #v(design-highlights-top-margin);#highlights([Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.],[#strong[4 published papers] in top-tier venues \(WWW, TKDD, IoTJ, ASONAM\) with #strong[470+ citations]],[#strong[5+ press releases] in top-tier media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]],[#strong[2 open-source projects] with #strong[20+ stars] on GitHub],[#strong[1 semester course] taught on \"Fundamentals of Programming with Python\" at Sharif University of Technology],)
   ],
 )
 
@@ -663,6 +663,21 @@
   #v(design-highlights-top-margin);Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 
 #v(design-highlights-top-margin - design-text-leading)The IEEE\/CVF Conference on Computer Vision and Pattern Recognition \(#strong[CVPR]\)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #link("https://arxiv.org/abs/2410.17098")[#strong[Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy]]
+
+  ],
+  right-content: [
+    Oct 2024
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);David Schneider, Sina Sajadmanesh, Vikash Sehwag, et al.
+
+#v(design-highlights-top-margin - design-text-leading)Technical Report, ArXiv e-prints])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(

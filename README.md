@@ -27,7 +27,7 @@
 
 - Oct 2023 – present
 - Zurich, Switzerland
-- Working on multimodal foundation models
+- Working on vision-language and multimodal foundation models
 - Implemented easy-to-use APIs for vision foundation model inference and deployment
 - Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training
 - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
@@ -38,7 +38,7 @@
 - May 2019 – Aug 2023
 - Martigny, Switzerland
 - Worked as a doctoral researcher on differentially private machine learning with graph neural networks
-- **3 published papers** in top-tier conferences (CCS, USENIX Security, and NDSS) with **185+ citations**
+- **3 published papers** in top-tier conferences (CCS, USENIX Security, and WSDM) with **255+ citations**
 - **7 invited talks** at top universities and research institutions, including Imperial College, UIC, and Twitter
 - **6 open-source projects** with **110+ stars** on GitHub
 - **1 short course** taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)
@@ -61,7 +61,7 @@
 - Nov 2014 – May 2019
 - Tehran, Iran
 - Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.
-- **4 published papers** in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with **430+ citations**
+- **4 published papers** in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with **470+ citations**
 - **5+ press releases** in top-tier media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)
 - **2 open-source projects** with **20+ stars** on GitHub
 - **1 semester course** taught on "Fundamentals of Programming with Python" at Sharif University of Technology
@@ -84,6 +84,11 @@
 - June 2025
 - Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 - The IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
+
+## [Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy](https://arxiv.org/abs/2410.17098) 
+- Oct 2024
+- David Schneider, Sina Sajadmanesh, Vikash Sehwag, et al.
+- Technical Report, ArXiv e-prints
 
 ## [ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761) 
 - Mar 2024
