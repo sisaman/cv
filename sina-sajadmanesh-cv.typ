@@ -652,7 +652,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Argus: A Compact and Versatile Foundation Model for Vision]
+    #link("https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html")[#strong[Argus: A Compact and Versatile Foundation Model for Vision]]
 
   ],
   right-content: [
