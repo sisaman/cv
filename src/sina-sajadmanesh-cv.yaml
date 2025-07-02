@@ -37,10 +37,12 @@ cv:
         # end_date: 2007-08
         highlights:
           - Working on vision-language and multimodal foundation models
-          - Implemented easy-to-use APIs for vision foundation model inference and deployment
+          - Contributed to the development of a unified vision-language model supporting both image understanding and generation, from data curation to model training and evaluation
+          - Implemented APIs for vision foundation model inference and deployment
+          - Contributed to the development of various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, and OCR
           - Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training
-          - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
-          - Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
+          # - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
+          # - Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
       - company: Idiap Research Institute
         position: Research Assistant
         location: Martigny, Switzerland
@@ -84,7 +86,7 @@ cv:
       - label: Programming Languages
         details: Python, C++, Java, SQL, Shell, LaTeX
       - label: Machine Learning and AI
-        details: PyTorch, TensorFlow, HuggingFace, OpenMMLab, PyTorch-Lightning
+        details: PyTorch, TensorFlow, HuggingFace, OpenMMLab
       - label: MLOps and DevOps
         details: Weights & Biases, Docker, GitHub, Dask, Neptune, Linux
       - label: Privacy-Enhancing Technologies
