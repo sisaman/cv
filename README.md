@@ -28,10 +28,10 @@
 - Oct 2023 – present
 - Zurich, Switzerland
 - Working on vision-language and multimodal foundation models
-- Implemented easy-to-use APIs for vision foundation model inference and deployment
+- Contributed to the development of a unified vision-language model supporting both image understanding and generation, from data curation to model training and evaluation
+- Implemented APIs for vision foundation model inference and deployment
+- Contributed to the development of various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, and OCR
 - Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training
-- Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
-- Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
 
 ## Idiap Research Institute, Research Assistant
 
@@ -69,7 +69,7 @@
 # Skills and Expertise
 
 - Programming Languages: Python, C++, Java, SQL, Shell, LaTeX
-- Machine Learning and AI: PyTorch, TensorFlow, HuggingFace, OpenMMLab, PyTorch-Lightning
+- Machine Learning and AI: PyTorch, TensorFlow, HuggingFace, OpenMMLab
 - MLOps and DevOps: Weights & Biases, Docker, GitHub, Dask, Neptune, Linux
 - Privacy-Enhancing Technologies: Flower, Opacus, Auto-DP
 # Community and Professional Service

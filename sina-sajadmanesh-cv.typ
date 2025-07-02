@@ -3,7 +3,7 @@
 
 #let name = "Sina Sajadmanesh"
 #let locale-catalog-page-numbering-style = context { "Sina Sajadmanesh - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in June 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in July 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
@@ -541,7 +541,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Working on vision-language and multimodal foundation models],[Implemented easy-to-use APIs for vision foundation model inference and deployment],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training],[Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP],[Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs],)
+    #v(design-highlights-top-margin);#highlights([Working on vision-language and multimodal foundation models],[Contributed to the development of a unified vision-language model supporting both image understanding and generation, from data curation to model training and evaluation],[Implemented APIs for vision foundation model inference and deployment],[Contributed to the development of various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, and OCR],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training],)
   ],
 )
 
@@ -615,7 +615,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Machine Learning and AI:] PyTorch, TensorFlow, HuggingFace, OpenMMLab, PyTorch-Lightning]
+  content: [#strong[Machine Learning and AI:] PyTorch, TensorFlow, HuggingFace, OpenMMLab]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
