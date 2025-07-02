@@ -101,7 +101,8 @@ cv:
         details: '[PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023/) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)'
       - label: Reviewer
         details: '[TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) (2025), [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)'
-    publications:
+    
+    selected publications:
       - title: '[Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html)'
         authors:
           - Weiming Zhuang
@@ -111,25 +112,25 @@ cv:
           - et al.
         journal: 'The IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)'
         date: 2025-06
-      - title: '[Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy](https://arxiv.org/abs/2410.17098)'
-        authors:
-          - David Schneider
-          - Sina Sajadmanesh
-          - Vikash Sehwag
-          - et al.
-        journal: 'Technical Report, ArXiv e-prints'
-        date: 2024-10
+      # - title: '[Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy](https://arxiv.org/abs/2410.17098)'
+      #   authors:
+      #     - David Schneider
+      #     - Sina Sajadmanesh
+      #     - Vikash Sehwag
+      #     - et al.
+      #   journal: 'Technical Report, ArXiv e-prints'
+      #   date: 2024-10
       - title: '[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761)'
         authors:
           - Sina Sajadmanesh
           - Daniel Gatica-Perez
         journal: 'ACM International Conference on Web Search and Data Mining (**WSDM**)'
         date: 2024-03
-      - title: '[Privacy-Preserving Machine Learning on Graphs](https://infoscience.epfl.ch/record/306602)'
-        authors:
-          - Sina Sajadmanesh
-        journal: Doctoral Thesis - Swiss Federal Institute of Technology (EPFL)
-        date: 2023-08
+      # - title: '[Privacy-Preserving Machine Learning on Graphs](https://infoscience.epfl.ch/record/306602)'
+      #   authors:
+      #     - Sina Sajadmanesh
+      #   journal: Doctoral Thesis - Swiss Federal Institute of Technology (EPFL)
+      #   date: 2023-08
       - title: '[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh)'
         authors:
           - Sina Sajadmanesh
@@ -144,12 +145,12 @@ cv:
           - Daniel Gatica-Perez
         journal: 'ACM Conference on Computer and Communications Security (**CCS**)'
         date: 2021-11
-      - title: '[When Differential Privacy Meets Graph Neural Networks](https://arxiv.org/abs/2006.05535v3)'
-        authors:
-          - Sina Sajadmanesh
-          - Daniel Gatica-Perez
-        journal: 'Technical Report, ArXiv e-prints'
-        date: 2020-06
+      # - title: '[When Differential Privacy Meets Graph Neural Networks](https://arxiv.org/abs/2006.05535v3)'
+      #   authors:
+      #     - Sina Sajadmanesh
+      #     - Daniel Gatica-Perez
+      #   journal: 'Technical Report, ArXiv e-prints'
+      #   date: 2020-06
       - title: '[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics](https://ieeexplore.ieee.org/document/8962332)'
         authors:
           - Seyed Ali Osia
@@ -166,13 +167,13 @@ cv:
           - Hamid R. Rabiee
         journal: 'ACM Transactions on Knowledge Discovery from Data (**TKDD**)'
         date: 2019-08
-      - title: '[NPGLM: A Non-Parametric Method for Temporal Link Prediction](https://arxiv.org/abs/1706.06783)'
-        authors:
-          - Sina Sajadmanesh
-          - Jiawei Zhang
-          - Hamid R. Rabiee
-        journal: 'Technical Report, ArXiv e-prints'
-        date: 2017-06
+      # - title: '[NPGLM: A Non-Parametric Method for Temporal Link Prediction](https://arxiv.org/abs/1706.06783)'
+      #   authors:
+      #     - Sina Sajadmanesh
+      #     - Jiawei Zhang
+      #     - Hamid R. Rabiee
+      #   journal: 'Technical Report, ArXiv e-prints'
+      #   date: 2017-06
       - title: '[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)'
         authors:
           - Sina Sajadmanesh
