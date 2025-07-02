@@ -647,7 +647,7 @@
 )
 
 
-== Publications
+== Selected Publications
 
 
 #two-col-entry(
@@ -667,21 +667,6 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://arxiv.org/abs/2410.17098")[#strong[Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy]]
-
-  ],
-  right-content: [
-    Oct 2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);David Schneider, Sina Sajadmanesh, Vikash Sehwag, et al.
-
-#v(design-highlights-top-margin - design-text-leading)Technical Report, ArXiv e-prints])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #link("https://dl.acm.org/doi/10.1145/3616855.3635761")[#strong[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees]]
 
   ],
@@ -693,21 +678,6 @@
   #v(design-highlights-top-margin);Sina Sajadmanesh, Daniel Gatica-Perez
 
 #v(design-highlights-top-margin - design-text-leading)ACM International Conference on Web Search and Data Mining \(#strong[WSDM]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("https://infoscience.epfl.ch/record/306602")[#strong[Privacy-Preserving Machine Learning on Graphs]]
-
-  ],
-  right-content: [
-    Aug 2023
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Sina Sajadmanesh
-
-#v(design-highlights-top-margin - design-text-leading)Doctoral Thesis - Swiss Federal Institute of Technology \(EPFL\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -742,21 +712,6 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://arxiv.org/abs/2006.05535v3")[#strong[When Differential Privacy Meets Graph Neural Networks]]
-
-  ],
-  right-content: [
-    June 2020
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Sina Sajadmanesh, Daniel Gatica-Perez
-
-#v(design-highlights-top-margin - design-text-leading)Technical Report, ArXiv e-prints])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #link("https://ieeexplore.ieee.org/document/8962332")[#strong[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics]]
 
   ],
@@ -783,21 +738,6 @@
   #v(design-highlights-top-margin);Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
 
 #v(design-highlights-top-margin - design-text-leading)ACM Transactions on Knowledge Discovery from Data \(#strong[TKDD]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("https://arxiv.org/abs/1706.06783")[#strong[NPGLM: A Non-Parametric Method for Temporal Link Prediction]]
-
-  ],
-  right-content: [
-    June 2017
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Sina Sajadmanesh, Jiawei Zhang, Hamid R. Rabiee
-
-#v(design-highlights-top-margin - design-text-leading)Technical Report, ArXiv e-prints])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(

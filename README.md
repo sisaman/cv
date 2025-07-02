@@ -78,27 +78,17 @@
 - Organizing Committee: [Privacy and Fairness in AI for Health](https://private-fair-ai.github.io/)  (2023)
 - Program Committee: [PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023/) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)
 - Reviewer: [TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) (2025), [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)
-# Publications
+# Selected Publications
 
 ## [Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html) 
 - June 2025
 - Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 - The IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
 
-## [Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy](https://arxiv.org/abs/2410.17098) 
-- Oct 2024
-- David Schneider, Sina Sajadmanesh, Vikash Sehwag, et al.
-- Technical Report, ArXiv e-prints
-
 ## [ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761) 
 - Mar 2024
 - Sina Sajadmanesh, Daniel Gatica-Perez
 - ACM International Conference on Web Search and Data Mining (**WSDM**)
-
-## [Privacy-Preserving Machine Learning on Graphs](https://infoscience.epfl.ch/record/306602) 
-- Aug 2023
-- Sina Sajadmanesh
-- Doctoral Thesis - Swiss Federal Institute of Technology (EPFL)
 
 ## [GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh) 
 - Aug 2023
@@ -110,11 +100,6 @@
 - Sina Sajadmanesh, Daniel Gatica-Perez
 - ACM Conference on Computer and Communications Security (**CCS**)
 
-## [When Differential Privacy Meets Graph Neural Networks](https://arxiv.org/abs/2006.05535v3) 
-- June 2020
-- Sina Sajadmanesh, Daniel Gatica-Perez
-- Technical Report, ArXiv e-prints
-
 ## [A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics](https://ieeexplore.ieee.org/document/8962332) 
 - May 2020
 - Seyed Ali Osia, Ali Shahin Shamsabadi, Sina Sajadmanesh, et al.
@@ -124,11 +109,6 @@
 - Aug 2019
 - Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
 - ACM Transactions on Knowledge Discovery from Data (**TKDD**)
-
-## [NPGLM: A Non-Parametric Method for Temporal Link Prediction](https://arxiv.org/abs/1706.06783) 
-- June 2017
-- Sina Sajadmanesh, Jiawei Zhang, Hamid R. Rabiee
-- Technical Report, ArXiv e-prints
 
 ## [Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137) 
 - Apr 2017
