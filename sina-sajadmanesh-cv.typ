@@ -3,7 +3,7 @@
 
 #let name = "Sina Sajadmanesh"
 #let locale-catalog-page-numbering-style = context { "Sina Sajadmanesh - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in July 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Sept 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
@@ -650,6 +650,21 @@
 == Selected Publications
 
 
+#two-col-entry(
+  left-content: [
+    #strong[StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold]
+
+  ],
+  right-content: [
+    Dec 2025
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
+
+#v(design-highlights-top-margin - design-text-leading)The Thirty-ninth Annual Conference on Neural Information Processing Systems \(#strong[NeurIPS]\)])
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #link("https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html")[#strong[Argus: A Compact and Versatile Foundation Model for Vision]]

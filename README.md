@@ -80,6 +80,11 @@
 - Reviewer: [TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) (2025), [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)
 # Selected Publications
 
+## StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold 
+- Dec 2025
+- Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
+- The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS**)
+
 ## [Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html) 
 - June 2025
 - Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
