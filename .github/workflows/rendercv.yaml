@@ -15,40 +15,93 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
+
       - name: RenderCV
+        id: render
         run: |
+          set -euo pipefail
           cd src
-          cv_file=$(find .  -maxdepth 1 -type f -name "*-cv.yaml" | head -n 1)
+          cv_file=$(find . -maxdepth 1 -type f -name "*-cv.yaml" | head -n 1)
           if [ -z "$cv_file" ]; then
             echo "No RenderCV file found!"
             exit 1
           fi
+          # remember base name like "my-cv"
+          base="${cv_file#./}"         # strip leading "./"
+          base_no_yaml="${base%.yaml}" # "my-cv"
+          echo "cv_yaml=$base" >> "$GITHUB_OUTPUT"
+          echo "cv_pdf=${base_no_yaml}.pdf" >> "$GITHUB_OUTPUT"
+          echo "cv_typ=${base_no_yaml}.typ" >> "$GITHUB_OUTPUT"
           cd ..
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --typst-path ${cv_file%.yaml}.typ
+          rendercv render "src/$cv_file" \
+            --pdf-path "${base_no_yaml}.pdf" \
+            --markdown-path README.md \
+            --typst-path "${base_no_yaml}.typ"
+
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: RenderCV Output
           path: rendercv_output
+
+      # Detect changes to the generated files so we only commit/push if needed
       - uses: dorny/paths-filter@v3
         id: changes
         with:
           base: HEAD
           filters: |
-            cv:
-              - '*-cv.typ'
+            readme:
               - 'README.md'
-      - name: Push the changes
-        if: steps.changes.outputs.cv == 'true'
+            typ:
+              - '*-cv.typ'
+            pdf:
+              - '*-cv.pdf'
+
+      - name: Push the changes (README.md / *.typ / *.pdf) to this repo
+        if: |
+          steps.changes.outputs.readme == 'true' ||
+          steps.changes.outputs.typ == 'true' ||
+          steps.changes.outputs.pdf == 'true'
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
-          git commit -m "render the latest CV"
+          git commit -m "render the latest CV" || echo "No changes to commit in source repo"
+          git push || echo "No changes to push in source repo"
+
+      # --- NEW: publish the PDF to sisaman/sisaman.github.io ---
+      - name: Checkout website repo
+        if: steps.changes.outputs.pdf == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: sisaman/sisaman.github.io
+          token: ${{ secrets.PUBLISH_TOKEN }} # PAT with (public_)repo scope
+          path: website
+          fetch-depth: 0
+
+      - name: Copy PDF into website repo
+        if: steps.changes.outputs.pdf == 'true'
+        run: |
+          set -euo pipefail
+          pdf="$(ls -1 *-cv.pdf | head -n 1)"
+          # Place it at the site root as "cv.pdf" (adjust path/name as you like)
+          cp "$pdf" website/cv.pdf
+
+      - name: Commit & push PDF to website
+        if: steps.changes.outputs.pdf == 'true'
+        run: |
+          set -euo pipefail
+          cd website
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add cv.pdf
+          git commit -m "Update CV PDF from $GITHUB_REPOSITORY@${GITHUB_SHA::7}" || echo "No changes to commit in website repo"
           git push
