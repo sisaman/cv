@@ -55,7 +55,6 @@ jobs:
 
       # --- NEW: publish the PDF to sisaman/sisaman.github.io ---
       - name: Checkout website repo
-        if: steps.changes.outputs.pdf == 'true'
         uses: actions/checkout@v4
         with:
           repository: sisaman/sisaman.github.io
@@ -64,7 +63,6 @@ jobs:
           fetch-depth: 0
 
       - name: Copy PDF into website repo
-        if: steps.changes.outputs.pdf == 'true'
         run: |
           set -euo pipefail
           pdf="${cv_file%.yaml}.pdf"
@@ -72,7 +70,6 @@ jobs:
           cp "$pdf" website/
 
       - name: Commit & push PDF to website
-        if: steps.changes.outputs.pdf == 'true'
         run: |
           set -euo pipefail
           cd website
