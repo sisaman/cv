@@ -67,9 +67,9 @@ jobs:
         if: steps.changes.outputs.pdf == 'true'
         run: |
           set -euo pipefail
-          pdf="$(ls -1 *-cv.pdf | head -n 1)"
-          # Place it at the site root as "cv.pdf" (adjust path/name as you like)
-          cp "$pdf" website/cv.pdf
+          pdf="${cv_file%.yaml}.pdf"
+          # Place it at the site root
+          cp "$pdf" website/
 
       - name: Commit & push PDF to website
         if: steps.changes.outputs.pdf == 'true'
@@ -78,6 +78,6 @@ jobs:
           cd website
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add cv.pdf
+          git add .
           git commit -m "Update CV PDF from $GITHUB_REPOSITORY@${GITHUB_SHA::7}" || echo "No changes to commit in website repo"
           git push
