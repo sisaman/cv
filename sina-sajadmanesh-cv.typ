@@ -652,7 +652,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold]
+    #link("https://arxiv.org/abs/2510.01938")[#strong[StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold]]
 
   ],
   right-content: [
