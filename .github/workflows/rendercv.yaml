@@ -31,6 +31,7 @@ jobs:
           fi
           cd ..
           rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --typst-path ${cv_file%.yaml}.typ
+          echo "CV_PDF=${cv_file%.yaml}.pdf" >> "$GITHUB_ENV"
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -64,10 +65,8 @@ jobs:
 
       - name: Copy PDF into website repo
         run: |
-          set -euo pipefail
-          pdf="${cv_file%.yaml}.pdf"
           # Place it at the site root
-          cp "$pdf" website/
+          cp "$CV_PDF" website/
 
       - name: Commit & push PDF to website
         run: |
