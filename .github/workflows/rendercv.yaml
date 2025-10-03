@@ -52,3 +52,32 @@ jobs:
           git add -A
           git commit -m "render the latest CV"
           git push
+
+      # --- NEW: publish the PDF to sisaman/sisaman.github.io ---
+      - name: Checkout website repo
+        if: steps.changes.outputs.pdf == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: sisaman/sisaman.github.io
+          token: ${{ secrets.PUBLISH_TOKEN }} # PAT with (public_)repo scope
+          path: website
+          fetch-depth: 0
+
+      - name: Copy PDF into website repo
+        if: steps.changes.outputs.pdf == 'true'
+        run: |
+          set -euo pipefail
+          pdf="${cv_file%.yaml}.pdf"
+          # Place it at the site root
+          cp "$pdf" website/
+
+      - name: Commit & push PDF to website
+        if: steps.changes.outputs.pdf == 'true'
+        run: |
+          set -euo pipefail
+          cd website
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          git commit -m "Update CV PDF from $GITHUB_REPOSITORY@${GITHUB_SHA::7}" || echo "No changes to commit in website repo"
+          git push
