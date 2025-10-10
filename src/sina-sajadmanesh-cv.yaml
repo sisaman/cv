@@ -83,14 +83,14 @@ cv:
           - '**1 semester course** taught on "Fundamentals of Programming with Python" at Sharif University of Technology'
     
     skills and expertise:
-      - label: Foundation \& Generative Models
-        details: Vision \& Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, QWen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
+      - label: Foundation & Generative Models
+        details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
       - label: Machine Learning Frameworks
-        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection)
-      - label: System \& Infrastructure
+        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W\&B, Neptune)
+      - label: System & Infrastructure
         details: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
-      - label: Engineering \& Tooling
-        details: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, pyproject.toml, ruff) · DevOps & CI/CD (Docker, GitHub Actions) · Experiment Management (W\&B, Neptune)
+      - label: Engineering & Tooling
+        details: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, pyproject.toml, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
       # - label: Programming Languages
       #   details: Python, C++, Java, SQL, Shell, LaTeX
       # - label: Machine Learning and AI
