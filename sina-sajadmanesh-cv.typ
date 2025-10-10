@@ -615,7 +615,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Machine Learning Frameworks:] PyTorch · Hugging Face \(Transformers, PEFT, Accelerate, Datasets, TIMM\) · OpenMMLabs \(MMCV, MMEngine, MMDetection\) . Experiment Management \(W\\&B, Neptune\)]
+  content: [#strong[Machine Learning Frameworks:] PyTorch · Hugging Face \(Transformers, PEFT, Accelerate, Datasets, TIMM\) · OpenMMLabs \(MMCV, MMEngine, MMDetection\) . Experiment Management \(W&B, Neptune\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -662,7 +662,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
 
-#v(design-highlights-top-margin - design-text-leading)The Thirty-ninth Annual Conference on Neural Information Processing Systems \(#strong[NeurIPS]\)])
+#v(design-highlights-top-margin - design-text-leading)The Thirty-ninth Annual Conference on Neural Information Processing Systems \(#strong[NeurIPS]\) \(#strong[Spotlight]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(

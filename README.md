@@ -69,7 +69,7 @@
 # Skills and Expertise
 
 - Foundation & Generative Models: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
-- Machine Learning Frameworks: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W\&B, Neptune)
+- Machine Learning Frameworks: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W&B, Neptune)
 - System & Infrastructure: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
 - Engineering & Tooling: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, pyproject.toml, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
 # Community and Professional Service
@@ -83,7 +83,7 @@
 ## [StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold](https://arxiv.org/abs/2510.01938) 
 - Dec 2025
 - Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
-- The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS**)
+- The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS**) (**Spotlight**)
 
 ## [Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html) 
 - June 2025
