@@ -705,7 +705,7 @@
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Sina Sajadmanesh, Ali Shahin Shamsabadi, Aurélien Bellet, et al.
+  #v(design-highlights-top-margin);Sina Sajadmanesh, Ali Shahin Shamsabadi, Aurélien Bellet, Daniel Gatica-Perez
 
 #v(design-highlights-top-margin - design-text-leading)USENIX Security Symposium \(#strong[USENIX Security]\)])
 
