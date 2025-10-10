@@ -97,7 +97,7 @@
 
 ## [GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh) 
 - Aug 2023
-- Sina Sajadmanesh, Ali Shahin Shamsabadi, Aurélien Bellet, et al.
+- Sina Sajadmanesh, Ali Shahin Shamsabadi, Aurélien Bellet, Daniel Gatica-Perez
 - USENIX Security Symposium (**USENIX Security**)
 
 ## [Locally Private Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3460120.3484565) 

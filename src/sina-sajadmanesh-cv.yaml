@@ -152,7 +152,7 @@ cv:
           - Sina Sajadmanesh
           - Ali Shahin Shamsabadi
           - Aurélien Bellet
-          - et al.
+          - Daniel Gatica-Perez
         journal: 'USENIX Security Symposium (**USENIX Security**)'
         date: 2023-08
       - title: '[Locally Private Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3460120.3484565)'
