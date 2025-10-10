@@ -68,10 +68,10 @@
 
 # Skills and Expertise
 
-- Foundation \& Generative Models: Vision \& Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, QWen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
-- Machine Learning Frameworks: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection)
-- System \& Infrastructure: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
-- Engineering \& Tooling: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, pyproject.toml, ruff) · DevOps & CI/CD (Docker, GitHub Actions) · Experiment Management (W\&B, Neptune)
+- Foundation & Generative Models: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
+- Machine Learning Frameworks: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W\&B, Neptune)
+- System & Infrastructure: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
+- Engineering & Tooling: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, pyproject.toml, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
 # Community and Professional Service
 
 - Invited Speaker: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)

@@ -611,19 +611,19 @@
 
 
 #one-col-entry(
-  content: [#strong[Foundation \\& Generative Models:] Vision \\& Multimodal Models \(ViT, CLIP, LLaVA\) · Large Language Models \(LLaMA, GPT, QWen\) · Parameter-Efficient Fine-Tuning \(LoRA\) · Representation Learning \(MAE, DINO\)]
+  content: [#strong[Foundation & Generative Models:] Vision & Multimodal Models \(ViT, CLIP, LLaVA\) · Large Language Models \(LLaMA, GPT, Qwen\) · Parameter-Efficient Fine-Tuning \(LoRA\) · Representation Learning \(MAE, DINO\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Machine Learning Frameworks:] PyTorch · Hugging Face \(Transformers, PEFT, Accelerate, Datasets, TIMM\) · OpenMMLabs \(MMCV, MMEngine, MMDetection\)]
+  content: [#strong[Machine Learning Frameworks:] PyTorch · Hugging Face \(Transformers, PEFT, Accelerate, Datasets, TIMM\) · OpenMMLabs \(MMCV, MMEngine, MMDetection\) . Experiment Management \(W\\&B, Neptune\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[System \\& Infrastructure:] Distributed Training \(DDP, FSDP\) · Mixed Precision \(AMP, BF16\) · Multi-Node GPU Clusters \(Slurm, BeeGFS\) · Performance Profiling & Optimization \(ONNX, TensorRT\)]
+  content: [#strong[System & Infrastructure:] Distributed Training \(DDP, FSDP\) · Mixed Precision \(AMP, BF16\) · Multi-Node GPU Clusters \(Slurm, BeeGFS\) · Performance Profiling & Optimization \(ONNX, TensorRT\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Engineering \\& Tooling:] Python \(expert\) · Bash · C++ · LaTeX. SQL. Data Processing \(torchvision, NumPy, Pandas\) · Environment & Packaging \(uv, pyproject.toml, ruff\) · DevOps & CI\/CD \(Docker, GitHub Actions\) · Experiment Management \(W\\&B, Neptune\)]
+  content: [#strong[Engineering & Tooling:] Python \(expert\) · Bash · C++ · LaTeX. SQL. Data Processing \(torchvision, NumPy, Pandas\) · Environment & Packaging \(uv, pyproject.toml, ruff\) · DevOps & CI\/CD \(Docker, GitHub Actions\)]
 )
 
 
