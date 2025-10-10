@@ -86,7 +86,7 @@ cv:
       - label: Foundation & Generative Models
         details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
       - label: Machine Learning Frameworks
-        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W\&B, Neptune)
+        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W&B, Neptune)
       - label: System & Infrastructure
         details: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
       - label: Engineering & Tooling
@@ -117,7 +117,7 @@ cv:
           - Sina Sajadmanesh
           - Jingtao Li
           - Lingjuan Lyu
-        journal: 'The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS**)'
+        journal: 'The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS**) (**Spotlight**)'
         date: 2025-12
       - title: '[Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html)'
         authors:
