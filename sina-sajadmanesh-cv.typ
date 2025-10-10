@@ -8,7 +8,7 @@
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
 #let design-colors-text = rgb(0, 0, 0)
-#let design-colors-section-titles = rgb(0, 0, 0)
+#let design-colors-section-titles = rgb(0, 79, 144)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(0, 0, 0)
 #let design-colors-connections = rgb(0, 0, 0)
@@ -18,9 +18,9 @@
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.2em
 #let design-section-titles-type = "with-parial-line"
-#let design-section-titles-vertical-space-above = 0.55cm
-#let design-section-titles-vertical-space-below = 0.3cm
-#let design-section-titles-small-caps = false
+#let design-section-titles-vertical-space-above = 0.7cm
+#let design-section-titles-vertical-space-below = 0.5cm
+#let design-section-titles-small-caps = true
 #let design-links-use-external-link-icon = true
 #let design-text-font-size = 10pt
 #let design-text-leading = 0.6em
@@ -41,7 +41,7 @@
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
-#let design-highlights-top-margin = 0.25cm
+#let design-highlights-top-margin = 0.35cm
 #let design-highlights-left-margin = 0cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
@@ -541,7 +541,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Working on vision-language and multimodal foundation models],[Contributed to the development of a unified vision-language model supporting both image understanding and generation, from data curation to model training and evaluation],[Implemented APIs for vision foundation model inference and deployment],[Contributed to the development of various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, and OCR],[Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training],)
+    #v(design-highlights-top-margin);#highlights([Working on vision and multimodal foundation models],[Co-developed a unified vision-language model supporting both image understanding and generation],[Implemented APIs for vision foundation model inference and deployment],[Developed various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, deraining, and OCR],[Designed and implemented a unique multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training],)
   ],
 )
 
@@ -556,7 +556,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Worked as a doctoral researcher on differentially private machine learning with graph neural networks],[#strong[3 published papers] in top-tier conferences \(CCS, USENIX Security, and WSDM\) with #strong[255+ citations]],[#strong[7 invited talks] at top universities and research institutions, including Imperial College, UIC, and Twitter],[#strong[6 open-source projects] with #strong[110+ stars] on GitHub],[#strong[1 short course] taught on \"Trustworthy Machine Learning\" at #link("https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/")[Artificial Intelligence Doctoral Academy]],[#strong[Finalist] in #link("https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb")[CSAW Applied Research Competition] for the best paper award in computer security in Europe],)
+    #v(design-highlights-top-margin);#highlights([Worked on differentially private machine learning with graph neural networks],[3 published papers in top-tier conferences \(CCS, USENIX Security, and WSDM\) with 255+ citations],[7 invited talks at top universities and research institutions, including Imperial College, UIC, and Twitter],[6 open-source projects with 110+ stars on GitHub],[1 short course taught on \"Trustworthy Machine Learning\" at #link("https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/")[Artificial Intelligence Doctoral Academy]],[Finalist in #link("https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb")[CSAW Applied Research Competition] for the best paper award in computer security in Europe],)
   ],
 )
 
@@ -571,7 +571,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Co-organized a workshop on #link("https://private-fair-ai.github.io/")[\"Privacy and Fairness in AI for Health\"] with 60+ attendees],)
+    #v(design-highlights-top-margin);#highlights([Co-organized a workshop on #link("https://private-fair-ai.github.io/")[\"Privacy and Fairness in AI for Health\"]],)
   ],
 )
 
@@ -586,7 +586,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a novel privacy-preserving #strong[federated learning] framework for #strong[neural bandit models] under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite],)
+    #v(design-highlights-top-margin);#highlights([Developed a novel privacy-preserving federated learning framework for neural bandit models under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite],)
   ],
 )
 
@@ -601,7 +601,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.],[#strong[4 published papers] in top-tier venues \(WWW, TKDD, IoTJ, ASONAM\) with #strong[470+ citations]],[#strong[5+ press releases] in top-tier media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]],[#strong[2 open-source projects] with #strong[20+ stars] on GitHub],[#strong[1 semester course] taught on \"Fundamentals of Programming with Python\" at Sharif University of Technology],)
+    #v(design-highlights-top-margin);#highlights([Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.],[4 published papers in top-tier venues \(WWW, TKDD, IoTJ, ASONAM\) with 470+ citations],[5+ press releases in top-tier media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]],[2 open-source projects with 20+ stars on GitHub],[1 semester course taught on \"Fundamentals of Programming with Python\" at Sharif University of Technology],)
   ],
 )
 
@@ -768,21 +768,6 @@
   #v(design-highlights-top-margin);Sina Sajadmanesh, Sina Jafarzadeh, Seyed Ali Ossia, et al.
 
 #v(design-highlights-top-margin - design-text-leading)International World Wide Web Conference Companion \(#strong[WWW]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("https://dl.acm.org/doi/pdf/10.5555/3192424.3192453")[#strong[Predicting Anchor Links between Heterogeneous Social Networks]]
-
-  ],
-  right-content: [
-    Aug 2016
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Sina Sajadmanesh, Hamid R. Rabiee, Ali Khodadadi
-
-#v(design-highlights-top-margin - design-text-leading)International Conference on Advances in Social Networks Analysis and Mining \(#strong[ASONAM]\)])
 
 
 
