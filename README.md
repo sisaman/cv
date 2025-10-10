@@ -27,44 +27,44 @@
 
 - Oct 2023 – present
 - Zurich, Switzerland
-- Working on vision-language and multimodal foundation models
-- Contributed to the development of a unified vision-language model supporting both image understanding and generation, from data curation to model training and evaluation
+- Working on vision and multimodal foundation models
+- Co-developed a unified vision-language model supporting both image understanding and generation
 - Implemented APIs for vision foundation model inference and deployment
-- Contributed to the development of various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, and OCR
-- Designed and implemented a comprehensive multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training
+- Developed various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, deraining, and OCR
+- Designed and implemented a unique multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training
 
 ## Idiap Research Institute, Research Assistant
 
 - May 2019 – Aug 2023
 - Martigny, Switzerland
-- Worked as a doctoral researcher on differentially private machine learning with graph neural networks
-- **3 published papers** in top-tier conferences (CCS, USENIX Security, and WSDM) with **255+ citations**
-- **7 invited talks** at top universities and research institutions, including Imperial College, UIC, and Twitter
-- **6 open-source projects** with **110+ stars** on GitHub
-- **1 short course** taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)
-- **Finalist** in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe
+- Worked on differentially private machine learning with graph neural networks
+- 3 published papers in top-tier conferences (CCS, USENIX Security, and WSDM) with 255+ citations
+- 7 invited talks at top universities and research institutions, including Imperial College, UIC, and Twitter
+- 6 open-source projects with 110+ stars on GitHub
+- 1 short course taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)
+- Finalist in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe
 
 ## The Alan Turing Institute, Visiting Collaborator
 
 - Mar 2023 – Mar 2023
 - London, UK
-- Co-organized a workshop on ["Privacy and Fairness in AI for Health"](https://private-fair-ai.github.io/) with 60+ attendees
+- Co-organized a workshop on ["Privacy and Fairness in AI for Health"](https://private-fair-ai.github.io/)
 
 ## Brave Software, Research Intern
 
 - Mar 2022 – May 2022
 - Remote
-- Developed a novel privacy-preserving **federated learning** framework for **neural bandit models** under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite
+- Developed a novel privacy-preserving federated learning framework for neural bandit models under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite
 
 ## Sharif University of Technology, Research Assistant
 
 - Nov 2014 – May 2019
 - Tehran, Iran
 - Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.
-- **4 published papers** in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with **470+ citations**
-- **5+ press releases** in top-tier media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)
-- **2 open-source projects** with **20+ stars** on GitHub
-- **1 semester course** taught on "Fundamentals of Programming with Python" at Sharif University of Technology
+- 4 published papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 470+ citations
+- 5+ press releases in top-tier media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)
+- 2 open-source projects with 20+ stars on GitHub
+- 1 semester course taught on "Fundamentals of Programming with Python" at Sharif University of Technology
 
 # Skills and Expertise
 
@@ -119,9 +119,4 @@
 - Apr 2017
 - Sina Sajadmanesh, Sina Jafarzadeh, Seyed Ali Ossia, et al.
 - International World Wide Web Conference Companion (**WWW**)
-
-## [Predicting Anchor Links between Heterogeneous Social Networks](https://dl.acm.org/doi/pdf/10.5555/3192424.3192453) 
-- Aug 2016
-- Sina Sajadmanesh, Hamid R. Rabiee, Ali Khodadadi
-- International Conference on Advances in Social Networks Analysis and Mining (**ASONAM**)
 
