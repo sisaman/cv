@@ -662,7 +662,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
 
-#v(design-highlights-top-margin - design-text-leading)The Thirty-ninth Annual Conference on Neural Information Processing Systems \(#strong[NeurIPS]\) \(#strong[Spotlight]\)])
+#v(design-highlights-top-margin - design-text-leading)Annual Conference on Neural Information Processing Systems \(#strong[NeurIPS]\) \(#strong[Spotlight]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -677,7 +677,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 
-#v(design-highlights-top-margin - design-text-leading)The IEEE\/CVF Conference on Computer Vision and Pattern Recognition \(#strong[CVPR]\)])
+#v(design-highlights-top-margin - design-text-leading)IEEE\/CVF Conference on Computer Vision and Pattern Recognition \(#strong[CVPR]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(

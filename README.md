@@ -83,12 +83,12 @@
 ## [StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold](https://arxiv.org/abs/2510.01938) 
 - Dec 2025
 - Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
-- The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS**) (**Spotlight**)
+- Annual Conference on Neural Information Processing Systems (**NeurIPS**) (**Spotlight**)
 
 ## [Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html) 
 - June 2025
 - Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
-- The IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
 
 ## [ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761) 
 - Mar 2024
