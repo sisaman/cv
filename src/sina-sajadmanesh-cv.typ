@@ -21,7 +21,7 @@
 #let design-section-titles-vertical-space-above = 0.7cm
 #let design-section-titles-vertical-space-below = 0.5cm
 #let design-section-titles-small-caps = true
-#let design-links-use-external-link-icon = true
+#let design-links-use-external-link-icon = false
 #let design-text-font-size = 10pt
 #let design-text-leading = 0.6em
 #let design-text-font-family = "XCharter"
@@ -42,7 +42,7 @@
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
 #let design-highlights-top-margin = 0.35cm
-#let design-highlights-left-margin = 0cm
+#let design-highlights-left-margin = 0.2cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
 #let design-entries-vertical-space-between-entries = 1.5em
@@ -52,8 +52,8 @@
 #let design-entries-left-and-right-margin = 0cm
 #let design-page-top-margin = 2cm
 #let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 1.8cm
-#let design-page-right-margin = 1.8cm
+#let design-page-left-margin = 2cm
+#let design-page-right-margin = 2cm
 #let design-page-show-last-updated-date = true
 #let design-page-show-page-numbering = true
 #let design-links-underline = false
@@ -451,7 +451,7 @@
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Zurich, Switzerland],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Bern],
   [#box(original-link("mailto:sina.sajadmanesh@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)sina.sajadmanesh\@gmail.com])],
   [#box(original-link("https://sajadmanesh.com/")[#fa-icon("link", size: 0.9em) #h(0.05cm)sajadmanesh.com])],
   [#box(original-link("https://linkedin.com/in/sajadmanesh")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)sajadmanesh])],
@@ -601,7 +601,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.],[4 published papers in top-tier venues \(WWW, TKDD, IoTJ, ASONAM\) with 470+ citations],[5+ press releases in top-tier media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]],[2 open-source projects with 20+ stars on GitHub],[1 semester course taught on \"Fundamentals of Programming with Python\" at Sharif University of Technology],)
+    #v(design-highlights-top-margin);#highlights([Worked on privacy-preserving machine learning, web data science, and information network analysis],[4 published papers in top-tier venues \(WWW, TKDD, IoTJ, ASONAM\) with 470+ citations],[5+ press coverages in prominent media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]],[2 open-source projects with 20+ stars on GitHub],[1 semester course taught on \"Fundamentals of Programming with Python\"],)
   ],
 )
 

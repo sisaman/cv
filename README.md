@@ -1,7 +1,7 @@
 # Sina Sajadmanesh's CV
 
 - Email: [sina.sajadmanesh@gmail.com](mailto:sina.sajadmanesh@gmail.com)
-- Location: Zurich, Switzerland
+- Location: Bern
 - Website: [sajadmanesh.com](https://sajadmanesh.com/)
 - LinkedIn: [sajadmanesh](https://linkedin.com/in/sajadmanesh)
 - GitHub: [sisaman](https://github.com/sisaman)
@@ -60,11 +60,11 @@
 
 - Nov 2014 – May 2019
 - Tehran, Iran
-- Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.
+- Worked on privacy-preserving machine learning, web data science, and information network analysis
 - 4 published papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 470+ citations
-- 5+ press releases in top-tier media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)
+- 5+ press coverages in prominent media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)
 - 2 open-source projects with 20+ stars on GitHub
-- 1 semester course taught on "Fundamentals of Programming with Python" at Sharif University of Technology
+- 1 semester course taught on "Fundamentals of Programming with Python"
 
 # Skills and Expertise
 

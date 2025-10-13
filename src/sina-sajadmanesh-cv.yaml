@@ -2,7 +2,7 @@
 
 cv:
   name: Sina Sajadmanesh
-  location: Zurich, Switzerland
+  location: Bern
   email: sina.sajadmanesh@gmail.com
   # phone: tel:+90-541-999-99-99
   website: https://sajadmanesh.com/
@@ -34,7 +34,6 @@ cv:
         position: AI Engineer
         location: Zurich, Switzerland
         start_date: 2023-10
-        # end_date: 2007-08
         highlights:
           - Working on vision and multimodal foundation models
           - Co-developed a unified vision-language model supporting both image understanding and generation
@@ -76,11 +75,11 @@ cv:
         start_date: 2014-11
         end_date: 2019-05
         highlights:
-          - Worked on various research projects including privacy-preserving machine learning, web data science, and social and information network analysis.
+          - Worked on privacy-preserving machine learning, web data science, and information network analysis
           - '4 published papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 470+ citations'
-          - '5+ press releases in top-tier media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)'
+          - '5+ press coverages in prominent media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)'
           - '2 open-source projects with 20+ stars on GitHub'
-          - '1 semester course taught on "Fundamentals of Programming with Python" at Sharif University of Technology'
+          - '1 semester course taught on "Fundamentals of Programming with Python"'
     
     skills and expertise:
       - label: Foundation & Generative Models
@@ -215,8 +214,8 @@ design:
     size: a4
     top_margin: 2cm
     bottom_margin: 2cm
-    left_margin: 1.8cm
-    right_margin: 1.8cm
+    left_margin: 2cm
+    right_margin: 2cm
     show_page_numbering: true
     show_last_updated_date: true
   colors:
@@ -228,7 +227,7 @@ design:
     vertical_space_below: 0.5cm
     vertical_space_above: 0.7cm
   links:
-    use_external_link_icon: true
+    use_external_link_icon: false
     underline: false
   header:
     name_font_size: 25pt
@@ -237,6 +236,7 @@ design:
     horizontal_space_between_connections: 8pt
   highlights:
     top_margin: 0.35cm
+    left_margin: 0.2cm
     vertical_space_between_highlights: 0.25cm
   entries:
     vertical_space_between_entries: 1.5em
