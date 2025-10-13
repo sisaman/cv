@@ -44,12 +44,6 @@
 - 1 short course taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)
 - Finalist in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe
 
-## The Alan Turing Institute, Visiting Collaborator
-
-- Mar 2023 – Mar 2023
-- London, UK
-- Co-organized a workshop on ["Privacy and Fairness in AI for Health"](https://private-fair-ai.github.io/)
-
 ## Brave Software, Research Intern
 
 - Mar 2022 – May 2022

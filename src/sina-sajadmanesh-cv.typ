@@ -563,21 +563,6 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[The Alan Turing Institute], Visiting Collaborator -- London, UK
-  ],
-  right-content: [
-    Mar 2023 – Mar 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Co-organized a workshop on #link("https://private-fair-ai.github.io/")[\"Privacy and Fairness in AI for Health\"]],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[Brave Software], Research Intern -- Remote
   ],
   right-content: [

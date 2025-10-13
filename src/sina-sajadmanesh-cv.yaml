@@ -55,13 +55,13 @@ cv:
           - '1 short course taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)'
           - 'Finalist in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe'
           # - 'Received a travel grant to attend [CISPA Summer School 2022](https://cispa.de/en/summer-school-2022) on Trustworthy Artificial Intelligence.'
-      - company: The Alan Turing Institute
-        position: Visiting Collaborator
-        location: London, UK
-        start_date: 2023-03
-        end_date: 2023-03
-        highlights:
-          - Co-organized a workshop on ["Privacy and Fairness in AI for Health"](https://private-fair-ai.github.io/)
+      # - company: The Alan Turing Institute
+      #   position: Visiting Collaborator
+      #   location: London, UK
+      #   start_date: 2023-03
+      #   end_date: 2023-03
+      #   highlights:
+      #     - Co-organized a workshop on ["Privacy and Fairness in AI for Health"](https://private-fair-ai.github.io/)
       - company: Brave Software
         position: Research Intern
         location: Remote
