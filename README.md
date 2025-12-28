@@ -8,15 +8,21 @@
 
 
 # Education
-## **Swiss Federal Institute of Technology (EPFL)**, PhD in Electrical EngineeringAug 2023
+## **Swiss Federal Institute of Technology (EPFL)**, PhD in Electrical Engineering
+
+Aug 2023
 
 
 
-## **Sharif University of Technology**, MSc in Information Technology EngineeringSept 2016
+## **Sharif University of Technology**, MSc in Information Technology Engineering
+
+Sept 2016
 
 
 
-## **University of Isfahan**, BSc in Computer Software EngineeringFeb 2014
+## **University of Isfahan**, BSc in Computer Software Engineering
+
+Feb 2014
 
 
 
@@ -26,8 +32,6 @@
 Dec 2025 – present
 
 - Driving model optimization and deployment across heterogeneous hardware backends
-
-- Owning APIs and infrastructure for large-scale vision foundation model inference and deployment
 
 - Developing cutting-edge vision-language models for visual perception and understanding
 
@@ -41,11 +45,11 @@ Oct 2023 – Dec 2025
 
 - Co-developed a unified vision-language model supporting both image understanding and generation
 
-- Implemented APIs for vision foundation model inference and deployment
+- Implemented model inference APIs and collaborated with various business units for deployment
 
-- Developed various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, deraining, and OCR
+- Developed 5+ computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, deraining, and OCR
 
-- Designed and implemented a unique multi-task learning framework, supporting various vision tasks and architectures with mixed-precision and distributed training
+- Designed and implemented a unique multi-task learning framework, supporting 15+ vision tasks with mixed-precision and distributed training
 
 
 
@@ -92,16 +96,16 @@ Nov 2014 – May 2019
 
 
 # Skills and Expertise
-**Foundation & Generative Models:** Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
+**Foundation & Generative Models:** Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
 
 **Machine Learning Frameworks:** PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W&B, Neptune)
 
 **System & Infrastructure:** Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
 
-**Engineering & Tooling:** Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, pyproject.toml, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
+**Engineering & Tooling:** Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
 
 # Community and Professional Service
-**Invited Speaker:** Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
+**Invited Speaker:** Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), GNN User Group Meetup (2021), Twitter ML Seminar (2021)
 
 **Organizing / Program Committee:** [Privacy and Fairness in AI for Health](https://private-fair-ai.github.io/)  (2023), [PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023/) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)
 
