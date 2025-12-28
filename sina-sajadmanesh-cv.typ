@@ -61,19 +61,19 @@
   section-titles-space-below: 0.5cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 1em,
-  sections-space-between-regular-entries: 0.5em,
+  sections-space-between-regular-entries: 1em,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
-  entries-allow-page-break: false,
+  entries-allow-page-break: true,
   entries-short-second-row: false,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.08cm,
-  entries-highlights-bullet:  "○" ,
+  entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0.5em,
-  entries-highlights-space-above: 0.5em,
-  entries-highlights-space-between-items: 0.1em,
+  entries-highlights-space-above: 1em,
+  entries-highlights-space-between-items: 0em,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2025,
@@ -162,11 +162,11 @@
 
   ],
   [
-    Oct 2023 – present
+    Oct 2023 – Dec 2025
 
   ],
   main-column-second-row: [
-    - Working on vision and multimodal foundation models
+    - Designed and implemented a model optimization and deployment framework, supporting various model formats and hardware backends, including ONNX, TensorRT, and OpenVINO
 
     - Co-developed a unified vision-language model supporting both image understanding and generation
 
@@ -174,7 +174,7 @@
 
     - Developed various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, deraining, and OCR
 
-    - Designed and implemented a unique multi-task learning framework based on OpenMMLab libraries and PyTorch, supporting various vision tasks and architectures with mixed-precision and distributed training
+    - Designed and implemented a unique multi-task learning framework, supporting various vision tasks and architectures with mixed-precision and distributed training
 
   ],
 )
@@ -191,11 +191,11 @@
   main-column-second-row: [
     - Worked on differentially private machine learning with graph neural networks
 
-    - 3 published papers in top-tier conferences (CCS, USENIX Security, and WSDM) with 255+ citations
+    - 3 papers in top-tier conferences (CCS, USENIX Security, and WSDM) with 340+ citations
 
     - 7 invited talks at top universities and research institutions, including Imperial College, UIC, and Twitter
 
-    - 6 open-source projects with 110+ stars on GitHub
+    - 6 open-source projects with 130+ stars on GitHub
 
     - 1 short course taught on \"Trustworthy Machine Learning\" at #link("https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/")[Artificial Intelligence Doctoral Academy]
 
@@ -231,7 +231,7 @@
   main-column-second-row: [
     - Worked on privacy-preserving machine learning, web data science, and information network analysis
 
-    - 4 published papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 470+ citations
+    - 4 papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 490+ citations
 
     - 5+ press coverages in prominent media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]
 
@@ -256,11 +256,9 @@
 
 #strong[Invited Speaker:] Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
 
-#strong[Organizing Committee:] #link("https://private-fair-ai.github.io/")[Privacy and Fairness in AI for Health]  (2023)
+#strong[Organizing \/ Program Committee:] #link("https://private-fair-ai.github.io/")[Privacy and Fairness in AI for Health]  (2023), #link("https://ppai-workshop.github.io")[PPAI] (2024), #link("https://wisec2023.surrey.ac.uk/wiseml2023/")[WiseML] (2023), #link("https://pair2struct-workshop.github.io")[PAIR2Struct] (2022), #link("https://dp-ml.github.io/2021-workshop-ICLR")[DPML] (2021)
 
-#strong[Program Committee:] #link("https://ppai-workshop.github.io")[PPAI] (2024), #link("https://wisec2023.surrey.ac.uk/wiseml2023/")[WiseML] (2023), #link("https://pair2struct-workshop.github.io")[PAIR2Struct] (2022), #link("https://dp-ml.github.io/2021-workshop-ICLR")[DPML] (2021)
-
-#strong[Reviewer:] #link("https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206")[TIFS] (2025), #link("https://neurips.cc")[NeurIPS] (2024), #link("https://dl.acm.org/journal/imwut")[IMWUT] (2024), #link("https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858")[TDSC] (2023), #link("https://logconference.org")[LoG] (2023, 2022), #link("http://aistats.org/aistats2023")[AISTATS] (2023), #link("https://www.journals.elsevier.com/artificial-intelligence")[AIJ] (2022), #link("https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317")[TBD] (2021), #link("https://dl.acm.org/journal/tist")[TIST] (2020), #link("https://www.springer.com/journal/13278")[SNAM] (2020), #link("https://www.springer.com/journal/11280")[WWWJ] (2018)
+#strong[Reviewer:] #link("https://cvpr.thecvf.com/")[CVPR] (2026), #link("https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206")[TIFS] (2025), #link("https://neurips.cc")[NeurIPS] (2024), #link("https://dl.acm.org/journal/imwut")[IMWUT] (2024), #link("https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858")[TDSC] (2023), #link("https://logconference.org")[LoG] (2023, 2022), #link("http://aistats.org/aistats2023")[AISTATS] (2023), #link("https://www.journals.elsevier.com/artificial-intelligence")[AIJ] (2022), #link("https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317")[TBD] (2021), #link("https://dl.acm.org/journal/tist")[TIST] (2020), #link("https://www.springer.com/journal/13278")[SNAM] (2020), #link("https://www.springer.com/journal/11280")[WWWJ] (2018)
 
 == Selected Publications
 
