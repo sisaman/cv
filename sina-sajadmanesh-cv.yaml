@@ -13,17 +13,17 @@ cv:
       username: sisaman
   sections:
     Education:
-      - institution: Swiss Federal Institute of Technology (EPFL)
+      - name: Swiss Federal Institute of Technology (EPFL)
         area: Electrical Engineering
         degree: PhD
         # start_date: 2019-05
         end_date: 2023-08
-      - institution: Sharif University of Technology
+      - name: Sharif University of Technology
         area: Information Technology Engineering
         degree: MSc
         # start_date: 2014-09
         end_date: 2016-09
-      - institution: University of Isfahan
+      - name: University of Isfahan
         area: Computer Software Engineering
         degree: BSc
         # start_date: 2009-09
@@ -36,7 +36,7 @@ cv:
         start_date: 2025-12
         highlights:
           - Driving model optimization and deployment across heterogeneous hardware backends
-          - Owning APIs and infrastructure for large-scale vision foundation model inference and deployment
+          # - Owning APIs and infrastructure for large-scale vision foundation model inference and deployment
           - Developing cutting-edge vision-language models for visual perception and understanding
       - company: Sony AI
         position: AI Engineer
@@ -46,9 +46,9 @@ cv:
         highlights:
           - Designed and implemented a model optimization and deployment framework, supporting various model formats and hardware backends, including ONNX, TensorRT, and OpenVINO
           - Co-developed a unified vision-language model supporting both image understanding and generation
-          - Implemented APIs for vision foundation model inference and deployment
-          - Developed various computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, deraining, and OCR
-          - Designed and implemented a unique multi-task learning framework, supporting various vision tasks and architectures with mixed-precision and distributed training
+          - Implemented model inference APIs and collaborated with various business units for deployment
+          - Developed 5+ computer vision models, including object detection, depth estimation, surface normal estimation, super-resolution, denoising, deraining, and OCR
+          - Designed and implemented a unique multi-task learning framework, supporting 15+ vision tasks with mixed-precision and distributed training
           # - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
           # - Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
       - company: Idiap Research Institute
@@ -92,13 +92,13 @@ cv:
     
     Skills and Expertise:
       - label: Foundation & Generative Models
-        details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
+        details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
       - label: Machine Learning Frameworks
         details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W&B, Neptune)
       - label: System & Infrastructure
         details: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
       - label: Engineering & Tooling
-        details: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, pyproject.toml, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
+        details: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
       # - label: Programming Languages
       #   details: Python, C++, Java, SQL, Shell, LaTeX
       # - label: Machine Learning and AI
@@ -110,7 +110,7 @@ cv:
 
     Community and Professional Service:
       - label: Invited Speaker
-        details: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
+        details: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), GNN User Group Meetup (2021), Twitter ML Seminar (2021)
       - label: Organizing / Program Committee
         details: '[Privacy and Fairness in AI for Health](https://private-fair-ai.github.io/)  (2023), [PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023/) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)'
       - label: Reviewer
@@ -252,7 +252,7 @@ design:
     allow_page_break: true
     highlights:
       # bullet: ○
-      space_above: 1em
+      space_above: 0.75em
       space_left: 0.5em
       space_between_items: 0em
   templates:
@@ -266,4 +266,8 @@ design:
         **TITLE**
         AUTHORS
         JOURNAL
+      date_and_location_column: DATE
+    normal_entry:
+      main_column: |-
+        **NAME**, DEGREE in AREA
       date_and_location_column: DATE
