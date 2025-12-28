@@ -2,34 +2,42 @@
 
 cv:
   name: Sina Sajadmanesh
-  location: Bern
+  location: Bern, CH
   email: sina.sajadmanesh@gmail.com
   # phone: tel:+90-541-999-99-99
-  website: https://sajadmanesh.com/
+  website: https://sisaman.github.io/
   social_networks:
     - network: LinkedIn
       username: sajadmanesh
     - network: GitHub
       username: sisaman
   sections:
-    education:
+    Education:
       - institution: Swiss Federal Institute of Technology (EPFL)
         area: Electrical Engineering
         degree: PhD
-        start_date: 2019-05
+        # start_date: 2019-05
         end_date: 2023-08
       - institution: Sharif University of Technology
         area: Information Technology Engineering
         degree: MSc
-        start_date: 2014-09
+        # start_date: 2014-09
         end_date: 2016-09
       - institution: University of Isfahan
         area: Computer Software Engineering
         degree: BSc
-        start_date: 2009-09
+        # start_date: 2009-09
         end_date: 2014-02
         
-    experience:
+    Experience:
+      - company: Sony AI
+        position: Senior AI Engineer
+        location: Zurich, Switzerland
+        start_date: 2025-12
+        highlights:
+          - Driving model optimization and deployment across heterogeneous hardware backends
+          - Owning APIs and infrastructure for large-scale vision foundation model inference and deployment
+          - Developing cutting-edge vision-language models for visual perception and understanding
       - company: Sony AI
         position: AI Engineer
         location: Zurich, Switzerland
@@ -81,7 +89,7 @@ cv:
           - '2 open-source projects with 20+ stars on GitHub'
           - '1 semester course taught on "Fundamentals of Programming with Python"'
     
-    skills and expertise:
+    Skills and Expertise:
       - label: Foundation & Generative Models
         details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Representation Learning (MAE, DINO)
       - label: Machine Learning Frameworks
@@ -99,7 +107,7 @@ cv:
       # - label: Privacy-Enhancing Technologies
       #   details: Flower, Opacus, Auto-DP
 
-    community and professional service:
+    Community and Professional Service:
       - label: Invited Speaker
         details: Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), Graph Neural Networks User Group Meetup (2021), Twitter Machine Learning Seminar (2021)
       - label: Organizing Committee
@@ -109,14 +117,14 @@ cv:
       - label: Reviewer
         details: '[TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) (2025), [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)'
     
-    selected publications:
+    Selected Publications:
       - title: '[StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold](https://arxiv.org/abs/2510.01938)'
         authors:
           - Zhizhong Li
           - Sina Sajadmanesh
           - Jingtao Li
           - Lingjuan Lyu
-        journal: 'Annual Conference on Neural Information Processing Systems (**NeurIPS**) (**Spotlight**)'
+        journal: 'Annual Conference on Neural Information Processing Systems (**NeurIPS**) 🌟 Spotlight (top 3%)'
         date: 2025-12
       - title: '[Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html)'
         authors:
@@ -207,43 +215,57 @@ cv:
 
 design:
   theme: engineeringresumes
-  text:
-    font_size: 10pt
+  typography:
+    font_size:
+      body: 10pt
+      name: 25pt
     alignment: left
+    small_caps:
+      section_titles: true
   page:
     size: a4
     top_margin: 2cm
     bottom_margin: 2cm
     left_margin: 2cm
     right_margin: 2cm
-    show_page_numbering: true
-    show_last_updated_date: true
   colors:
-    text: black
+    body: black
     links: 031c30
     section_titles: '#004f90'
+  sections:
+    space_between_regular_entries: 0.5em
+    space_between_text_based_entries: 1em
+    allow_page_break: true
   section_titles:
-    small_caps: true
-    vertical_space_below: 0.5cm
-    vertical_space_above: 0.7cm
+    space_below: 0.5cm
+    space_above: 0.7cm
   links:
-    use_external_link_icon: false
+    show_external_link_icon: false
     underline: false
   header:
-    name_font_size: 25pt
-    separator_between_connections: ''
-    use_icons_for_connections: true
-    horizontal_space_between_connections: 8pt
-  highlights:
-    top_margin: 0.35cm
-    left_margin: 0.2cm
-    vertical_space_between_highlights: 0.25cm
+    connections:
+      hyperlink: true
+      show_icons: true
+      separator: ''
+      display_urls_instead_of_usernames: false
+      space_between_connections: 8pt
   entries:
-    vertical_space_between_entries: 1.5em
-  entry_types:
+    # vertical_space_between_entries: 1.5em
+    allow_page_break: false
+    highlights:
+      bullet: ○
+      space_above: 0.5em
+      space_left: 0.5em
+      space_between_items: 0.1em
+  templates:
+    footer: NAME - Page PAGE_NUMBER of TOTAL_PAGES
     experience_entry:
-      main_column_first_row_template: '**COMPANY**, POSITION -- LOCATION'
-
-locale:
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
+      main_column: |-
+        **COMPANY**, POSITION -- LOCATION
+        HIGHLIGHTS
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        AUTHORS
+        JOURNAL
+      date_and_location_column: DATE

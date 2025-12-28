@@ -11,13 +11,13 @@
       "module": "rendercv",
       "args": [
         "render",
-        "src/sina-sajadmanesh-cv.yaml",
+        "sina-sajadmanesh-cv.yaml",
         "--pdf-path",
         "sina-sajadmanesh-cv.pdf",
         "--markdown-path",
         "README.md",
         "--typst-path",
-        "src/sina-sajadmanesh-cv.typ"
+        "sina-sajadmanesh-cv.typ"
       ]
     }
   ]
