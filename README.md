@@ -29,7 +29,7 @@ Feb 2014
 # Experience
 ## **Sony AI**, Senior AI Engineer -- Zurich, Switzerland
 
-Dec 2025 – present
+Jan 2026 – present
 
 - Driving model optimization and deployment across heterogeneous hardware backends
 

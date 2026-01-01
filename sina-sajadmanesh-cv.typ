@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Sina Sajadmanesh",
   footer: context { [Sina Sajadmanesh - Page #str(here().page()) of #str(counter(page).final().first())] },
-  top-note: [ #emph[Last updated in Dec 2025] ],
+  top-note: [ #emph[Last updated in Jan 2026] ],
   locale-catalog-language: "en",
   page-size: "a4",
   page-top-margin: 2cm,
@@ -76,9 +76,9 @@
   entries-highlights-space-between-items: 0em,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
-    year: 2025,
-    month: 12,
-    day: 28,
+    year: 2026,
+    month: 1,
+    day: 1,
   ),
 )
 
@@ -143,7 +143,7 @@
 
   ],
   [
-    Dec 2025 – present
+    Jan 2026 – present
 
   ],
   main-column-second-row: [
