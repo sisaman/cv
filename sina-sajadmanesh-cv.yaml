@@ -33,7 +33,7 @@ cv:
       - company: Sony AI
         position: Senior AI Engineer
         location: Zurich, Switzerland
-        start_date: 2025-12
+        start_date: 2026-01
         highlights:
           - Driving model optimization and deployment across heterogeneous hardware backends
           # - Owning APIs and infrastructure for large-scale vision foundation model inference and deployment
