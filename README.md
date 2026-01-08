@@ -41,13 +41,13 @@ Jan 2026 – present
 
 Oct 2023 – Dec 2025
 
-- Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS''25 spotlight paper
+- Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 spotlight paper
 
-- Optimized Sony''s Argus VFM inference through code optimization, vectorization, and TensorRT, resulting in up to 61× speedup across 17 vision tasks
+- Optimized Sony's Argus VFM inference through code optimization, vectorization, and TensorRT, resulting in up to 61× speedup across 17 vision tasks
 
 - Developed 7 computer vision models, including object detection, depth estimation, super-resolution, and OCR, achieving SOTA or competitive results
 
-- Architected and implemented a foundational MTL framework for Sony''s Argus VFM, supporting 17 vision tasks, enabling CVPR''25 publication
+- Architected and implemented a foundational MTL framework for Sony's Argus VFM, supporting 17 vision tasks, enabling CVPR'25 publication
 
 
 
