@@ -14,16 +14,20 @@ jobs:
     name: RenderCV
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
         with:
           python-version-file: .python-version
+
       - name: Install uv
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
+
       - name: Install RenderCV
         run: uv sync --locked --all-extras --dev
+
       - name: RenderCV
         run: |
           cv_file=$(find .  -maxdepth 1 -type f -name "*-cv.yaml" | head -n 1)
@@ -33,12 +37,14 @@ jobs:
           fi
           uv run rendercv render $cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --typst-path ${cv_file%.yaml}.typ
           echo "CV_PDF=${cv_file%.yaml}.pdf" >> "$GITHUB_ENV"
+
       - name: Upload rendercv_output as an artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: RenderCV Output
           path: rendercv_output
-      - uses: dorny/paths-filter@v3
+
+      - uses: dorny/paths-filter@v4
         id: changes
         with:
           base: HEAD
@@ -46,6 +52,7 @@ jobs:
             cv:
               - '*-cv.typ'
               - 'README.md'
+
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
         run: |
@@ -57,7 +64,7 @@ jobs:
 
       # --- NEW: publish the PDF to sisaman/sisaman.github.io ---
       - name: Checkout website repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: sisaman/sisaman.github.io
           token: ${{ secrets.PUBLISH_TOKEN }} # PAT with (public_)repo scope
