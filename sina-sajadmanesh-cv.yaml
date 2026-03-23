@@ -2,7 +2,7 @@
 
 cv:
   name: Sina Sajadmanesh
-  location: Bern, CH
+  location: Zurich, CH
   email: sina.sajadmanesh@gmail.com
   # phone: tel:+90-541-999-99-99
   website: https://sisaman.github.io/
@@ -11,7 +11,12 @@ cv:
       username: sajadmanesh
     - network: GitHub
       username: sisaman
+
   sections:
+
+    Summary:
+      - Senior AI Engineer specializing in multimodal foundation models, with a strong focus on translating research into high-performance, production-ready systems. Proven track record in building scalable model training pipelines and optimizing inference across heterogeneous hardware.
+
     Education:
       - name: Swiss Federal Institute of Technology (EPFL)
         area: Electrical Engineering
@@ -28,29 +33,26 @@ cv:
         degree: BSc
         # start_date: 2009-09
         end_date: 2014-02
-        
+
     Experience:
       - company: Sony AI
         position: Senior AI Engineer
         location: Zurich, Switzerland
         start_date: 2026-01
         highlights:
-          - Driving model optimization and deployment across heterogeneous hardware backends
-          # - Owning APIs and infrastructure for large-scale vision foundation model inference and deployment
-          - Developing cutting-edge vision-language models for visual perception and understanding
+          - Optimized and deployed ML models on Qualcomm edge devices using QAIRT / SNPE / QNN, extending official support to modern LLMs and VLMs
+          - Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs)
+          - Developed compact vision-language models supporting image/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
       - company: Sony AI
         position: AI Engineer
         location: Zurich, Switzerland
         start_date: 2023-10
         end_date: 2025-12
         highlights:
-          # - Designed and implemented a model optimization and deployment framework, supporting various model formats and hardware backends, including ONNX, TensorRT, and OpenVINO
           - Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 spotlight paper
-          - Optimized Sony's Argus VFM inference through code optimization, vectorization, and TensorRT, resulting in up to 61× speedup across 17 vision tasks
+          - Led end-to-end optimization of Sony's Argus VFM inference stack, resulting in up to 61× speedup across 17 vision tasks
           - Developed 7 computer vision models, including object detection, depth estimation, super-resolution, and OCR, achieving SOTA or competitive results
           - Architected and implemented a foundational MTL framework for Sony's Argus VFM, supporting 17 vision tasks, enabling CVPR'25 publication
-          # - Implemented an end-to-end open-world classification pipeline using MMClassification, HuggingFace transformers, and CLIP
-          # - Improved model training and inference speed by optimizing the data pipeline, using mixed-precision training, and leveraging distributed training on multiple GPUs
       - company: Idiap Research Institute
         position: Research Assistant
         location: Martigny, Switzerland
@@ -93,20 +95,14 @@ cv:
     Skills and Expertise:
       - label: Foundation & Generative Models
         details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
+      - label: Model Optimization & Deployment
+        details: TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Optimum · Quantization · Graph Optimization · Performance Profiling
       - label: Machine Learning Frameworks
-        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W&B, Neptune)
-      - label: System & Infrastructure
-        details: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
+        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
+      # - label: Systems & Infrastructure
+      #   details: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS)
       - label: Engineering & Tooling
-        details: Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
-      # - label: Programming Languages
-      #   details: Python, C++, Java, SQL, Shell, LaTeX
-      # - label: Machine Learning and AI
-      #   details: PyTorch, TensorFlow, HuggingFace, OpenMMLab
-      # - label: MLOps and DevOps
-      #   details: Weights & Biases, Docker, GitHub, Dask, Neptune, Linux
-      # - label: Privacy-Enhancing Technologies
-      #   details: Flower, Opacus, Auto-DP
+        details: Python · C++ · Bash · SQL · Data Processing (NumPy, Pandas, torchvision) · Environment & Packaging (uv, ruff) · CI/CD (Docker, GitHub Actions)
 
     Community and Professional Service:
       - label: Invited Speaker
@@ -115,7 +111,7 @@ cv:
         details: '[Privacy and Fairness in AI for Health](https://private-fair-ai.github.io/)  (2023), [PPAI](https://ppai-workshop.github.io) (2024), [WiseML](https://wisec2023.surrey.ac.uk/wiseml2023/) (2023), [PAIR2Struct](https://pair2struct-workshop.github.io) (2022), [DPML](https://dp-ml.github.io/2021-workshop-ICLR) (2021)'
       - label: Reviewer
         details: '[CVPR](https://cvpr.thecvf.com/) (2026), [TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) (2025), [NeurIPS](https://neurips.cc) (2024), [IMWUT](https://dl.acm.org/journal/imwut) (2024), [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) (2023), [LoG](https://logconference.org) (2023, 2022), [AISTATS](http://aistats.org/aistats2023) (2023), [AIJ](https://www.journals.elsevier.com/artificial-intelligence) (2022), [TBD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) (2021), [TIST](https://dl.acm.org/journal/tist) (2020), [SNAM](https://www.springer.com/journal/13278) (2020), [WWWJ](https://www.springer.com/journal/11280) (2018)'
-    
+
     Selected Publications:
       - title: '[StelLA: Subspace Learning in Low-rank Adaptation using Stiefel Manifold](https://arxiv.org/abs/2510.01938)'
         authors:
@@ -123,7 +119,7 @@ cv:
           - Sina Sajadmanesh
           - Jingtao Li
           - Lingjuan Lyu
-        journal: 'Annual Conference on Neural Information Processing Systems (**NeurIPS**) 🌟 Spotlight (top 3%)'
+        journal: 'NeurIPS 2025 🌟 Spotlight (top 3%)'
         date: 2025-12
       - title: '[Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html)'
         authors:
@@ -132,7 +128,7 @@ cv:
           - Zhizhong Li
           - Sina Sajadmanesh
           - et al.
-        journal: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)'
+        journal: 'CVPR 2025'
         date: 2025-06
       # - title: '[Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy](https://arxiv.org/abs/2410.17098)'
       #   authors:
@@ -146,7 +142,7 @@ cv:
         authors:
           - Sina Sajadmanesh
           - Daniel Gatica-Perez
-        journal: 'ACM International Conference on Web Search and Data Mining (**WSDM**)'
+        journal: 'WSDM 2024'
         date: 2024-03
       # - title: '[Privacy-Preserving Machine Learning on Graphs](https://infoscience.epfl.ch/record/306602)'
       #   authors:
@@ -159,13 +155,13 @@ cv:
           - Ali Shahin Shamsabadi
           - Aurélien Bellet
           - Daniel Gatica-Perez
-        journal: 'USENIX Security Symposium (**USENIX Security**)'
+        journal: 'USENIX Security 2023'
         date: 2023-08
       - title: '[Locally Private Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3460120.3484565)'
         authors:
           - Sina Sajadmanesh
           - Daniel Gatica-Perez
-        journal: 'ACM Conference on Computer and Communications Security (**CCS**)'
+        journal: 'CCS 2021'
         date: 2021-11
       # - title: '[When Differential Privacy Meets Graph Neural Networks](https://arxiv.org/abs/2006.05535v3)'
       #   authors:
@@ -179,16 +175,16 @@ cv:
           - Ali Shahin Shamsabadi
           - Sina Sajadmanesh
           - et al.
-        journal: 'IEEE Internet of Things Journal (**IoTJ**)'
+        journal: 'IEEE Internet of Things Journal'
         date: 2020-05
-      - title: '[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://dl.acm.org/authorize?N680282)'
-        authors:
-          - Sina Sajadmanesh
-          - Sogol Bazargani
-          - Jiawei Zhang
-          - Hamid R. Rabiee
-        journal: 'ACM Transactions on Knowledge Discovery from Data (**TKDD**)'
-        date: 2019-08
+      # - title: '[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://dl.acm.org/authorize?N680282)'
+      #   authors:
+      #     - Sina Sajadmanesh
+      #     - Sogol Bazargani
+      #     - Jiawei Zhang
+      #     - Hamid R. Rabiee
+      #   journal: 'ACM Transactions on Knowledge Discovery from Data (**TKDD**)'
+      #   date: 2019-08
       # - title: '[NPGLM: A Non-Parametric Method for Temporal Link Prediction](https://arxiv.org/abs/1706.06783)'
       #   authors:
       #     - Sina Sajadmanesh
@@ -196,14 +192,14 @@ cv:
       #     - Hamid R. Rabiee
       #   journal: 'Technical Report, ArXiv e-prints'
       #   date: 2017-06
-      - title: '[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)'
-        authors:
-          - Sina Sajadmanesh
-          - Sina Jafarzadeh
-          - Seyed Ali Ossia
-          - et al.
-        journal: 'International World Wide Web Conference Companion (**WWW**)'
-        date: 2017-04
+      # - title: '[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)'
+      #   authors:
+      #     - Sina Sajadmanesh
+      #     - Sina Jafarzadeh
+      #     - Seyed Ali Ossia
+      #     - et al.
+      #   journal: 'International World Wide Web Conference Companion (**WWW**)'
+      #   date: 2017-04
       # - title: '[Predicting Anchor Links between Heterogeneous Social Networks](https://dl.acm.org/doi/pdf/10.5555/3192424.3192453)'
       #   authors:
       #     - Sina Sajadmanesh

@@ -89,13 +89,17 @@
 = Sina Sajadmanesh
 
 #connections(
-  [#connection-with-icon("location-dot")[Bern, CH]],
+  [#connection-with-icon("location-dot")[Zurich, CH]],
   [#link("mailto:sina.sajadmanesh@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[sina.sajadmanesh\@gmail.com]]],
   [#link("https://sisaman.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[sisaman.github.io]]],
   [#link("https://linkedin.com/in/sajadmanesh", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[sajadmanesh]]],
   [#link("https://github.com/sisaman", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[sisaman]]],
 )
 
+
+== Summary
+
+Senior AI Engineer specializing in multimodal foundation models, with a strong focus on translating research into high-performance, production-ready systems. Proven track record in building scalable model training pipelines and optimizing inference across heterogeneous hardware.
 
 == Education
 
@@ -150,9 +154,11 @@
 
   ],
   main-column-second-row: [
-    - Driving model optimization and deployment across heterogeneous hardware backends
+    - Optimized and deployed ML models on Qualcomm edge devices using QAIRT \/ SNPE \/ QNN, extending official support to modern LLMs and VLMs
 
-    - Developing cutting-edge vision-language models for visual perception and understanding
+    - Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs)
+
+    - Developed compact vision-language models supporting image\/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
 
   ],
 )
@@ -169,7 +175,7 @@
   main-column-second-row: [
     - Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 spotlight paper
 
-    - Optimized Sony's Argus VFM inference through code optimization, vectorization, and TensorRT, resulting in up to 61× speedup across 17 vision tasks
+    - Led end-to-end optimization of Sony's Argus VFM inference stack, resulting in up to 61× speedup across 17 vision tasks
 
     - Developed 7 computer vision models, including object detection, depth estimation, super-resolution, and OCR, achieving SOTA or competitive results
 
@@ -245,11 +251,11 @@
 
 #strong[Foundation & Generative Models:] Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
 
-#strong[Machine Learning Frameworks:] PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W&B, Neptune)
+#strong[Model Optimization & Deployment:] TensorRT · ONNX · Qualcomm QNN \/ SNPE \/ QAIRT · Optimum · Quantization · Graph Optimization · Performance Profiling
 
-#strong[System & Infrastructure:] Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
+#strong[Machine Learning Frameworks:] PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
 
-#strong[Engineering & Tooling:] Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, ruff) · DevOps & CI\/CD (Docker, GitHub Actions)
+#strong[Engineering & Tooling:] Python · C++ · Bash · SQL · Data Processing (NumPy, Pandas, torchvision) · Environment & Packaging (uv, ruff) · CI\/CD (Docker, GitHub Actions)
 
 == Community and Professional Service
 
@@ -273,7 +279,7 @@
   main-column-second-row: [
     Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
 
-    Annual Conference on Neural Information Processing Systems (#strong[NeurIPS]) 🌟 Spotlight (top 3\%)
+    NeurIPS 2025 🌟 Spotlight (top 3\%)
 
   ],
 )
@@ -290,7 +296,7 @@
   main-column-second-row: [
     Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 
-    IEEE\/CVF Conference on Computer Vision and Pattern Recognition (#strong[CVPR])
+    CVPR 2025
 
   ],
 )
@@ -307,7 +313,7 @@
   main-column-second-row: [
     Sina Sajadmanesh, Daniel Gatica-Perez
 
-    ACM International Conference on Web Search and Data Mining (#strong[WSDM])
+    WSDM 2024
 
   ],
 )
@@ -324,7 +330,7 @@
   main-column-second-row: [
     Sina Sajadmanesh, Ali Shahin Shamsabadi, Aurélien Bellet, Daniel Gatica-Perez
 
-    USENIX Security Symposium (#strong[USENIX Security])
+    USENIX Security 2023
 
   ],
 )
@@ -341,7 +347,7 @@
   main-column-second-row: [
     Sina Sajadmanesh, Daniel Gatica-Perez
 
-    ACM Conference on Computer and Communications Security (#strong[CCS])
+    CCS 2021
 
   ],
 )
@@ -358,41 +364,7 @@
   main-column-second-row: [
     Seyed Ali Osia, Ali Shahin Shamsabadi, Sina Sajadmanesh, et al.
 
-    IEEE Internet of Things Journal (#strong[IoTJ])
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://dl.acm.org/authorize?N680282")[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks]]
-
-  ],
-  [
-    Aug 2019
-
-  ],
-  main-column-second-row: [
-    Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
-
-    ACM Transactions on Knowledge Discovery from Data (#strong[TKDD])
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://dl.acm.org/citation.cfm?id=3055137")[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web]]
-
-  ],
-  [
-    Apr 2017
-
-  ],
-  main-column-second-row: [
-    Sina Sajadmanesh, Sina Jafarzadeh, Seyed Ali Ossia, et al.
-
-    International World Wide Web Conference Companion (#strong[WWW])
+    IEEE Internet of Things Journal
 
   ],
 )

@@ -1,11 +1,14 @@
 # Sina Sajadmanesh's CV
 
 - Email: [sina.sajadmanesh@gmail.com](mailto:sina.sajadmanesh@gmail.com)
-- Location: Bern, CH
+- Location: Zurich, CH
 - Website: [sisaman.github.io](https://sisaman.github.io/)
 - LinkedIn: [sajadmanesh](https://linkedin.com/in/sajadmanesh)
 - GitHub: [sisaman](https://github.com/sisaman)
 
+
+# Summary
+Senior AI Engineer specializing in multimodal foundation models, with a strong focus on translating research into high-performance, production-ready systems. Proven track record in building scalable model training pipelines and optimizing inference across heterogeneous hardware.
 
 # Education
 ## **Swiss Federal Institute of Technology (EPFL)**, PhD in Electrical Engineering
@@ -31,9 +34,11 @@ Feb 2014
 
 Jan 2026 – present
 
-- Driving model optimization and deployment across heterogeneous hardware backends
+- Optimized and deployed ML models on Qualcomm edge devices using QAIRT / SNPE / QNN, extending official support to modern LLMs and VLMs
 
-- Developing cutting-edge vision-language models for visual perception and understanding
+- Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs)
+
+- Developed compact vision-language models supporting image/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
 
 
 
@@ -43,7 +48,7 @@ Oct 2023 – Dec 2025
 
 - Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 spotlight paper
 
-- Optimized Sony's Argus VFM inference through code optimization, vectorization, and TensorRT, resulting in up to 61× speedup across 17 vision tasks
+- Led end-to-end optimization of Sony's Argus VFM inference stack, resulting in up to 61× speedup across 17 vision tasks
 
 - Developed 7 computer vision models, including object detection, depth estimation, super-resolution, and OCR, achieving SOTA or competitive results
 
@@ -96,11 +101,11 @@ Nov 2014 – May 2019
 # Skills and Expertise
 **Foundation & Generative Models:** Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
 
-**Machine Learning Frameworks:** PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets, TIMM) · OpenMMLabs (MMCV, MMEngine, MMDetection) . Experiment Management (W&B, Neptune)
+**Model Optimization & Deployment:** TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Optimum · Quantization · Graph Optimization · Performance Profiling
 
-**System & Infrastructure:** Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS) · Performance Profiling & Optimization (ONNX, TensorRT)
+**Machine Learning Frameworks:** PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
 
-**Engineering & Tooling:** Python (expert) · Bash · C++ · LaTeX. SQL. Data Processing (torchvision, NumPy, Pandas) · Environment & Packaging (uv, ruff) · DevOps & CI/CD (Docker, GitHub Actions)
+**Engineering & Tooling:** Python · C++ · Bash · SQL · Data Processing (NumPy, Pandas, torchvision) · Environment & Packaging (uv, ruff) · CI/CD (Docker, GitHub Actions)
 
 # Community and Professional Service
 **Invited Speaker:** Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), GNN User Group Meetup (2021), Twitter ML Seminar (2021)
@@ -116,7 +121,7 @@ Dec 2025
 
 Zhizhong Li, Sina Sajadmanesh, Jingtao Li, Lingjuan Lyu
 
-Annual Conference on Neural Information Processing Systems (**NeurIPS**) 🌟 Spotlight (top 3%)
+NeurIPS 2025 🌟 Spotlight (top 3%)
 
 
 
@@ -126,7 +131,7 @@ June 2025
 
 Weiming Zhuang, Chen Chen, Zhizhong Li, Sina Sajadmanesh, et al.
 
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
+CVPR 2025
 
 
 
@@ -136,7 +141,7 @@ Mar 2024
 
 Sina Sajadmanesh, Daniel Gatica-Perez
 
-ACM International Conference on Web Search and Data Mining (**WSDM**)
+WSDM 2024
 
 
 
@@ -146,7 +151,7 @@ Aug 2023
 
 Sina Sajadmanesh, Ali Shahin Shamsabadi, Aurélien Bellet, Daniel Gatica-Perez
 
-USENIX Security Symposium (**USENIX Security**)
+USENIX Security 2023
 
 
 
@@ -156,7 +161,7 @@ Nov 2021
 
 Sina Sajadmanesh, Daniel Gatica-Perez
 
-ACM Conference on Computer and Communications Security (**CCS**)
+CCS 2021
 
 
 
@@ -166,26 +171,6 @@ May 2020
 
 Seyed Ali Osia, Ali Shahin Shamsabadi, Sina Sajadmanesh, et al.
 
-IEEE Internet of Things Journal (**IoTJ**)
-
-
-
-## **[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://dl.acm.org/authorize?N680282)**
-
-Aug 2019
-
-Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
-
-ACM Transactions on Knowledge Discovery from Data (**TKDD**)
-
-
-
-## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)**
-
-Apr 2017
-
-Sina Sajadmanesh, Sina Jafarzadeh, Seyed Ali Ossia, et al.
-
-International World Wide Web Conference Companion (**WWW**)
+IEEE Internet of Things Journal
 
 
