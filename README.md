@@ -36,7 +36,7 @@ Jan 2026 – present
 
 - Optimized and deployed ML models on Qualcomm edge devices using QAIRT / SNPE / QNN, extending official support to modern LLMs and VLMs
 
-- Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs)
+- Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
 
 - Developed compact vision-language models supporting image/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
 
@@ -101,7 +101,7 @@ Nov 2014 – May 2019
 # Skills and Expertise
 **Foundation & Generative Models:** Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
 
-**Model Optimization & Deployment:** TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Optimum · Quantization · Graph Optimization · Performance Profiling
+**Model Optimization & Deployment:** TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Apple CoreML / MLX · Optimum · Quantization · Graph Optimization · Performance Profiling
 
 **Machine Learning Frameworks:** PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
 

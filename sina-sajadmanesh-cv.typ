@@ -6,7 +6,7 @@
   name: "Sina Sajadmanesh",
   title: "Sina Sajadmanesh - CV",
   footer: context { [Sina Sajadmanesh - Page #str(here().page()) of #str(counter(page).final().first())] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 23,
+    month: 5,
+    day: 27,
   ),
 )
 
@@ -156,7 +156,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
   main-column-second-row: [
     - Optimized and deployed ML models on Qualcomm edge devices using QAIRT \/ SNPE \/ QNN, extending official support to modern LLMs and VLMs
 
-    - Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs)
+    - Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
 
     - Developed compact vision-language models supporting image\/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
 
@@ -251,7 +251,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #strong[Foundation & Generative Models:] Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
 
-#strong[Model Optimization & Deployment:] TensorRT · ONNX · Qualcomm QNN \/ SNPE \/ QAIRT · Optimum · Quantization · Graph Optimization · Performance Profiling
+#strong[Model Optimization & Deployment:] TensorRT · ONNX · Qualcomm QNN \/ SNPE \/ QAIRT · Apple CoreML \/ MLX · Optimum · Quantization · Graph Optimization · Performance Profiling
 
 #strong[Machine Learning Frameworks:] PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
 
