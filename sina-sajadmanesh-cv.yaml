@@ -41,7 +41,7 @@ cv:
         start_date: 2026-01
         highlights:
           - Optimized and deployed ML models on Qualcomm edge devices using QAIRT / SNPE / QNN, extending official support to modern LLMs and VLMs
-          - Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs)
+          - Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
           - Developed compact vision-language models supporting image/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
       - company: Sony AI
         position: AI Engineer
@@ -96,7 +96,7 @@ cv:
       - label: Foundation & Generative Models
         details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
       - label: Model Optimization & Deployment
-        details: TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Optimum · Quantization · Graph Optimization · Performance Profiling
+        details: TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Apple CoreML / MLX · Optimum · Quantization · Graph Optimization · Performance Profiling
       - label: Machine Learning Frameworks
         details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
       # - label: Systems & Infrastructure
