@@ -80,17 +80,17 @@ cv:
         end_date: 2022-05
         highlights:
           - Developed a novel privacy-preserving federated learning framework for neural bandit models under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite
-      - company: Sharif University of Technology
-        position: Research Assistant
-        location: Tehran, Iran
-        start_date: 2014-11
-        end_date: 2019-05
-        highlights:
-          - Worked on privacy-preserving machine learning, web data science, and information network analysis
-          - '4 papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 490+ citations'
-          - '5+ press coverages in prominent media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)'
-          - '2 open-source projects with 20+ stars on GitHub'
-          - '1 semester course taught on "Fundamentals of Programming with Python"'
+      # - company: Sharif University of Technology
+      #   position: Research Assistant
+      #   location: Tehran, Iran
+      #   start_date: 2014-11
+      #   end_date: 2019-05
+      #   highlights:
+      #     - Worked on privacy-preserving machine learning, web data science, and information network analysis
+      #     - '4 papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 490+ citations'
+      #     - '5+ press coverages in prominent media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)'
+      #     - '2 open-source projects with 20+ stars on GitHub'
+      #     - '1 semester course taught on "Fundamentals of Programming with Python"'
     
     Skills and Expertise:
       - label: Foundation & Generative Models
