@@ -192,14 +192,14 @@ cv:
       #     - Hamid R. Rabiee
       #   journal: 'Technical Report, ArXiv e-prints'
       #   date: 2017-06
-      # - title: '[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)'
-      #   authors:
-      #     - Sina Sajadmanesh
-      #     - Sina Jafarzadeh
-      #     - Seyed Ali Ossia
-      #     - et al.
-      #   journal: 'International World Wide Web Conference Companion (**WWW**)'
-      #   date: 2017-04
+      - title: '[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)'
+        authors:
+          - Sina Sajadmanesh
+          - Sina Jafarzadeh
+          - Seyed Ali Ossia
+          - et al.
+        journal: 'WWW 2017'
+        date: 2017-04
       # - title: '[Predicting Anchor Links between Heterogeneous Social Networks](https://dl.acm.org/doi/pdf/10.5555/3192424.3192453)'
       #   authors:
       #     - Sina Sajadmanesh
