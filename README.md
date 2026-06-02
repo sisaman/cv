@@ -159,6 +159,16 @@ IEEE Internet of Things Journal
 
 
 
+## **[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://dl.acm.org/authorize?N680282)**
+
+Aug 2019
+
+Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
+
+TKDD
+
+
+
 ## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)**
 
 Apr 2017

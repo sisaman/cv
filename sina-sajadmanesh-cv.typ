@@ -348,6 +348,23 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #regular-entry(
   [
+    #strong[#link("https://dl.acm.org/authorize?N680282")[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks]]
+
+  ],
+  [
+    Aug 2019
+
+  ],
+  main-column-second-row: [
+    Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
+
+    TKDD
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[#link("https://dl.acm.org/citation.cfm?id=3055137")[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web]]
 
   ],
