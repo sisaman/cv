@@ -6,7 +6,7 @@
   name: "Sina Sajadmanesh",
   title: "Sina Sajadmanesh - CV",
   footer: context { [Sina Sajadmanesh - Page #str(here().page()) of #str(counter(page).final().first())] },
-  top-note: [ #emph[Last updated in May 2026] ],
+  top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 27,
+    month: 6,
+    day: 2,
   ),
 )
 
@@ -220,29 +220,6 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
   ],
   main-column-second-row: [
     - Developed a novel privacy-preserving federated learning framework for neural bandit models under client heterogeneity using PyTorch, Flower, Dask, and Tensorflow-Lite
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Sharif University of Technology], Research Assistant -- Tehran, Iran
-
-  ],
-  [
-    Nov 2014 – May 2019
-
-  ],
-  main-column-second-row: [
-    - Worked on privacy-preserving machine learning, web data science, and information network analysis
-
-    - 4 papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 490+ citations
-
-    - 5+ press coverages in prominent media outlets, including #link("https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/")[MIT Technology Review], #link("http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients")[France 24], and #link("https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171")[The Independent]
-
-    - 2 open-source projects with 20+ stars on GitHub
-
-    - 1 semester course taught on \"Fundamentals of Programming with Python\"
 
   ],
 )

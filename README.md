@@ -82,22 +82,6 @@ Mar 2022 – May 2022
 
 
 
-## **Sharif University of Technology**, Research Assistant -- Tehran, Iran
-
-Nov 2014 – May 2019
-
-- Worked on privacy-preserving machine learning, web data science, and information network analysis
-
-- 4 papers in top-tier venues (WWW, TKDD, IoTJ, ASONAM) with 490+ citations
-
-- 5+ press coverages in prominent media outlets, including [MIT Technology Review](https://www.technologyreview.com/s/602790/how-data-mining-reveals-the-worlds-healthiest-cuisines/), [France 24](http://mashable.france24.com/styles/20161115-algorithme-cuisines-recherche-nutrition-ingredients), and [The Independent](https://www.indy100.com/article/healthy-diverse-top-healthiest-countries-cuisine-food-in-the-world-list-7412171)
-
-- 2 open-source projects with 20+ stars on GitHub
-
-- 1 semester course taught on "Fundamentals of Programming with Python"
-
-
-
 # Skills and Expertise
 **Foundation & Generative Models:** Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
 
