@@ -158,3 +158,13 @@ Seyed Ali Osia, Ali Shahin Shamsabadi, Sina Sajadmanesh, et al.
 IEEE Internet of Things Journal
 
 
+
+## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)**
+
+Apr 2017
+
+Sina Sajadmanesh, Sina Jafarzadeh, Seyed Ali Ossia, et al.
+
+WWW 2017
+
+

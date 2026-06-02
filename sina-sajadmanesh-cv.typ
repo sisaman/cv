@@ -345,3 +345,20 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
   ],
 )
+
+#regular-entry(
+  [
+    #strong[#link("https://dl.acm.org/citation.cfm?id=3055137")[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web]]
+
+  ],
+  [
+    Apr 2017
+
+  ],
+  main-column-second-row: [
+    Sina Sajadmanesh, Sina Jafarzadeh, Seyed Ali Ossia, et al.
+
+    WWW 2017
+
+  ],
+)
