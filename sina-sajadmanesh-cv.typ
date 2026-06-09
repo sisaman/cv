@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 2,
+    day: 9,
   ),
 )
 
@@ -154,9 +154,9 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
   ],
   main-column-second-row: [
-    - Optimized and deployed ML models on Qualcomm edge devices using QAIRT \/ SNPE \/ QNN, extending official support to modern LLMs and VLMs
+    - Built agentic AI workflows for automated model optimization, improving inference speed and memory footprint of LLMs and VLMs for Apple Silicon
 
-    - Architected and maintained a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
+    - Architected a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
 
     - Developed compact vision-language models supporting image\/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
 
@@ -231,6 +231,8 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 #strong[Model Optimization & Deployment:] TensorRT · ONNX · Qualcomm QNN \/ SNPE \/ QAIRT · Apple CoreML \/ MLX · Optimum · Quantization · Graph Optimization · Performance Profiling
 
 #strong[Machine Learning Frameworks:] PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
+
+#strong[Agentic AI & LLM Systems:] LangChain · LangGraph · MCP · Tool Calling · RAG · Multi-Agent Systems · Workflow Orchestration
 
 #strong[Engineering & Tooling:] Python · C++ · Bash · SQL · Data Processing (NumPy, Pandas, torchvision) · Environment & Packaging (uv, ruff) · CI\/CD (Docker, GitHub Actions)
 
