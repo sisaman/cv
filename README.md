@@ -111,7 +111,7 @@ NeurIPS 2025 🌟 Spotlight (top 3%)
 
 
 
-## **[Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html)**
+## **[Argus: A Compact and Versatile Foundation Model for Vision](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.pdf)**
 
 June 2025
 
@@ -121,7 +121,7 @@ CVPR 2025
 
 
 
-## **[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://arxiv.org/abs/2401.16326)**
+## **[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://arxiv.org/pdf/2304.08928.pdf)**
 
 Mar 2024
 
@@ -131,7 +131,7 @@ WSDM 2024
 
 
 
-## **[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://arxiv.org/abs/2301.03017)**
+## **[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://arxiv.org/pdf/2203.00949.pdf)**
 
 Aug 2023
 
@@ -141,7 +141,7 @@ USENIX Security 2023
 
 
 
-## **[Locally Private Graph Neural Networks](https://arxiv.org/abs/2006.05535v3)**
+## **[Locally Private Graph Neural Networks](https://arxiv.org/pdf/2006.05535)**
 
 Nov 2021
 
@@ -151,7 +151,7 @@ CCS 2021
 
 
 
-## **[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics](https://arxiv.org/abs/1812.01484)**
+## **[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics](https://arxiv.org/pdf/1703.02952)**
 
 May 2020
 
@@ -161,7 +161,7 @@ IEEE Internet of Things Journal
 
 
 
-## **[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://arxiv.org/abs/1805.01424)**
+## **[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://arxiv.org/pdf/1710.00818)**
 
 Aug 2019
 
@@ -171,7 +171,7 @@ TKDD
 
 
 
-## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://arxiv.org/abs/1704.04277)**
+## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://arxiv.org/pdf/1610.08469)**
 
 Apr 2017
 
