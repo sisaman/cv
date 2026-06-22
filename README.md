@@ -121,7 +121,7 @@ CVPR 2025
 
 
 
-## **[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://dl.acm.org/doi/10.1145/3616855.3635761)**
+## **[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees](https://arxiv.org/abs/2401.16326)**
 
 Mar 2024
 
@@ -131,7 +131,7 @@ WSDM 2024
 
 
 
-## **[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh)**
+## **[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation](https://arxiv.org/abs/2301.03017)**
 
 Aug 2023
 
@@ -141,7 +141,7 @@ USENIX Security 2023
 
 
 
-## **[Locally Private Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3460120.3484565)**
+## **[Locally Private Graph Neural Networks](https://arxiv.org/abs/2006.05535v3)**
 
 Nov 2021
 
@@ -151,7 +151,7 @@ CCS 2021
 
 
 
-## **[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics](https://ieeexplore.ieee.org/document/8962332)**
+## **[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics](https://arxiv.org/abs/1812.01484)**
 
 May 2020
 
@@ -161,7 +161,7 @@ IEEE Internet of Things Journal
 
 
 
-## **[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://dl.acm.org/authorize?N680282)**
+## **[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://arxiv.org/abs/1805.01424)**
 
 Aug 2019
 
@@ -171,7 +171,7 @@ TKDD
 
 
 
-## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://dl.acm.org/citation.cfm?id=3055137)**
+## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://arxiv.org/abs/1704.04277)**
 
 Apr 2017
 

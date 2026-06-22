@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 9,
+    day: 22,
   ),
 )
 
@@ -282,7 +282,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #regular-entry(
   [
-    #strong[#link("https://dl.acm.org/doi/10.1145/3616855.3635761")[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees]]
+    #strong[#link("https://arxiv.org/abs/2401.16326")[ProGAP: Progressive Graph Neural Networks with Differential Privacy Guarantees]]
 
   ],
   [
@@ -299,7 +299,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #regular-entry(
   [
-    #strong[#link("https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh")[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation]]
+    #strong[#link("https://arxiv.org/abs/2301.03017")[GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation]]
 
   ],
   [
@@ -316,7 +316,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #regular-entry(
   [
-    #strong[#link("https://dl.acm.org/doi/abs/10.1145/3460120.3484565")[Locally Private Graph Neural Networks]]
+    #strong[#link("https://arxiv.org/abs/2006.05535v3")[Locally Private Graph Neural Networks]]
 
   ],
   [
@@ -333,7 +333,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #regular-entry(
   [
-    #strong[#link("https://ieeexplore.ieee.org/document/8962332")[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics]]
+    #strong[#link("https://arxiv.org/abs/1812.01484")[A Hybrid Deep Learning Architecture for Privacy-Preserving Mobile Analytics]]
 
   ],
   [
@@ -350,7 +350,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #regular-entry(
   [
-    #strong[#link("https://dl.acm.org/authorize?N680282")[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks]]
+    #strong[#link("https://arxiv.org/abs/1805.01424")[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks]]
 
   ],
   [
@@ -367,7 +367,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
 #regular-entry(
   [
-    #strong[#link("https://dl.acm.org/citation.cfm?id=3055137")[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web]]
+    #strong[#link("https://arxiv.org/abs/1704.04277")[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web]]
 
   ],
   [
