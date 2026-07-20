@@ -6,7 +6,7 @@
   name: "Sina Sajadmanesh",
   title: "Sina Sajadmanesh - CV",
   footer: context { [Sina Sajadmanesh - Page #str(here().page()) of #str(counter(page).final().first())] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in July 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 22,
+    month: 7,
+    day: 20,
   ),
 )
 
@@ -173,13 +173,13 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
   ],
   main-column-second-row: [
-    - Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 spotlight paper
+    - Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 Spotlight paper
 
-    - Led end-to-end optimization of Sony's Argus VFM inference stack, resulting in up to 61× speedup across 17 vision tasks
+    - Led optimization of Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
 
-    - Developed 7 computer vision models, including object detection, depth estimation, super-resolution, and OCR, achieving SOTA or competitive results
+    - Led development and integration of 7 vision tasks, including depth estimation, surface normal prediction, super-resolution, and denoising, into a unified 17-task VFM
 
-    - Architected and implemented a foundational MTL framework for Sony's Argus VFM, supporting 17 vision tasks, enabling CVPR'25 publication
+    - Architected and led development of a modular multi-task learning framework unifying OpenMMLab libraries into a single distributed training platform powering Sony's Argus VFM
 
   ],
 )
@@ -358,7 +358,7 @@ Senior AI Engineer specializing in multimodal foundation models, with a strong f
 
   ],
   main-column-second-row: [
-    Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
+    Sina Sajadmanesh, Sogol Bazargani, et al.
 
     TKDD
 

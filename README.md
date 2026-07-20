@@ -46,13 +46,13 @@ Jan 2026 – present
 
 Oct 2023 – Dec 2025
 
-- Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 spotlight paper
+- Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 Spotlight paper
 
-- Led end-to-end optimization of Sony's Argus VFM inference stack, resulting in up to 61× speedup across 17 vision tasks
+- Led optimization of Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
 
-- Developed 7 computer vision models, including object detection, depth estimation, super-resolution, and OCR, achieving SOTA or competitive results
+- Led development and integration of 7 vision tasks, including depth estimation, surface normal prediction, super-resolution, and denoising, into a unified 17-task VFM
 
-- Architected and implemented a foundational MTL framework for Sony's Argus VFM, supporting 17 vision tasks, enabling CVPR'25 publication
+- Architected and led development of a modular multi-task learning framework unifying OpenMMLab libraries into a single distributed training platform powering Sony's Argus VFM
 
 
 
@@ -165,7 +165,7 @@ IEEE Internet of Things Journal
 
 Aug 2019
 
-Sina Sajadmanesh, Sogol Bazargani, Jiawei Zhang, Hamid R. Rabiee
+Sina Sajadmanesh, Sogol Bazargani, et al.
 
 TKDD
 
