@@ -181,13 +181,13 @@ cv:
           - et al.
         journal: 'IEEE Internet of Things Journal'
         date: 2020-05
-      - title: '[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://arxiv.org/pdf/1710.00818)'
-        authors:
-          - Sina Sajadmanesh
-          - Sogol Bazargani
-          - et al.
-        journal: 'TKDD'
-        date: 2019-08
+      # - title: '[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://arxiv.org/pdf/1710.00818)'
+      #   authors:
+      #     - Sina Sajadmanesh
+      #     - Sogol Bazargani
+      #     - et al.
+      #   journal: 'TKDD'
+      #   date: 2019-08
       # - title: '[NPGLM: A Non-Parametric Method for Temporal Link Prediction](https://arxiv.org/abs/1706.06783)'
       #   authors:
       #     - Sina Sajadmanesh
