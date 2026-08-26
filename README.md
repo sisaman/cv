@@ -8,7 +8,7 @@
 
 
 # Summary
-Senior AI Engineer specializing in multimodal foundation models, with a strong focus on translating research into high-performance, production-ready systems. Proven track record in building scalable model training pipelines and optimizing inference across heterogeneous hardware.
+Senior AI Engineer specializing in multimodal foundation models and video understanding, with a track record of leading end-to-end R&D and translating research into efficient, production-ready ML systems across heterogeneous hardware.
 
 # Education
 ## **Swiss Federal Institute of Technology (EPFL)**, PhD in Electrical Engineering
@@ -33,6 +33,10 @@ Feb 2014
 ## **Sony AI**, Senior AI Engineer -- Zurich, Switzerland
 
 Jan 2026 – present
+
+- Leading end-to-end R&D of a multimodal video understanding system using natural-language instructions to flexibly segment, retrieve, and annotate long-form video
+
+- Deployed video-language action recognition models on Apple Silicon for Sony’s Remote Camera Tool, building an end-to-end Swift/Core ML inference pipeline on the Neural Engine with up to 53× faster inference and 19× lower peak memory
 
 - Built agentic AI workflows for automated model optimization, improving inference speed and memory footprint of LLMs and VLMs for Apple Silicon
 
