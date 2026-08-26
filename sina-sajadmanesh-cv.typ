@@ -156,13 +156,11 @@ Senior AI Engineer specializing in multimodal foundation models and video unders
   main-column-second-row: [
     - Leading end-to-end R&D of a multimodal video understanding system using natural-language instructions to flexibly segment, retrieve, and annotate long-form video
 
-    - Deployed video-language action recognition models on Apple Silicon for Sony’s Remote Camera Tool, building an end-to-end Swift\/Core ML inference pipeline on the Neural Engine with up to 53× faster inference and 19× lower peak memory
+    - Deployed video-language action recognition models on Apple Silicon for Sony's Remote Camera Tool, building an end-to-end Swift\/Core ML pipeline with up to 53× faster compute and 19× lower peak memory
 
-    - Built agentic AI workflows for automated model optimization, improving inference speed and memory footprint of LLMs and VLMs for Apple Silicon
+    - Developed compact vision-language models for image\/video understanding and localization, achieving competitive accuracy at lower computational cost
 
-    - Architected a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
-
-    - Developed compact vision-language models supporting image\/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
+    - Built agentic model-optimization workflows and a modular ML acceleration framework for deploying LLMs\/VLMs and CV models across NVIDIA GPUs, Qualcomm NPUs, and Apple Silicon
 
   ],
 )
@@ -177,13 +175,13 @@ Senior AI Engineer specializing in multimodal foundation models and video unders
 
   ],
   main-column-second-row: [
-    - Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 Spotlight paper
+    - Developed a geometric optimization method for low-rank adaptation, resulting in a NeurIPS 2025 Spotlight paper
 
-    - Led optimization of Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
+    - Led optimization of the Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
 
-    - Led development and integration of 7 vision tasks, including depth estimation, surface normal prediction, super-resolution, and denoising, into a unified 17-task VFM
+    - Led expansion of Argus into a unified 17-task vision foundation model, integrating 7 tasks including depth estimation, surface normals, super-resolution, and denoising
 
-    - Architected and led development of a modular multi-task learning framework unifying OpenMMLab libraries into a single distributed training platform powering Sony's Argus VFM
+    - Architected a distributed multi-task learning platform unifying OpenMMLab libraries and powering training of Sony’s Argus VFM
 
   ],
 )
@@ -198,17 +196,13 @@ Senior AI Engineer specializing in multimodal foundation models and video unders
 
   ],
   main-column-second-row: [
-    - Worked on differentially private machine learning with graph neural networks
+    - Developed privacy-preserving machine learning methods for graph neural networks, with a focus on differential privacy
 
-    - 3 papers in top-tier conferences (CCS, USENIX Security, and WSDM) with 340+ citations
+    - Published 3 papers at top-tier venues including CCS, USENIX Security, and WSDM, accumulating 340+ citations
 
-    - 7 invited talks at top universities and research institutions, including Imperial College, UIC, and Twitter
+    - Released 6 open-source research projects with 130+ GitHub stars and delivered 7 invited talks at leading universities and research institutions
 
-    - 6 open-source projects with 130+ stars on GitHub
-
-    - 1 short course taught on \"Trustworthy Machine Learning\" at #link("https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/")[Artificial Intelligence Doctoral Academy]
-
-    - Finalist in #link("https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb")[CSAW Applied Research Competition] for the best paper award in computer security in Europe
+    - Taught a short course on Trustworthy Machine Learning at the Artificial Intelligence Doctoral Academy
 
   ],
 )
@@ -230,15 +224,15 @@ Senior AI Engineer specializing in multimodal foundation models and video unders
 
 == Skills and Expertise
 
-#strong[Foundation & Generative Models:] Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
+#strong[Foundation & Multimodal Models:] Vision-Language Models · Video Understanding · ViT · CLIP · LLaVA · Large Language Models (LLaMA, GPT, Qwen) · PEFT (LoRA) · Self-Supervised Learning (MAE, DINO)
 
-#strong[Model Optimization & Deployment:] TensorRT · ONNX · Qualcomm QNN \/ SNPE \/ QAIRT · Apple CoreML \/ MLX · Optimum · Quantization · Graph Optimization · Performance Profiling
+#strong[Model Optimization & Deployment:] Core ML · MLX · TensorRT · ONNX · Qualcomm QNN \/ QAIRT · Quantization · Graph Optimization · Performance Profiling · Heterogeneous Hardware Deployment
 
-#strong[Machine Learning Frameworks:] PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
+#strong[Machine Learning Systems:] PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection) · Distributed Training (DDP, FSDP)
 
 #strong[Agentic AI & LLM Systems:] LangChain · LangGraph · MCP · Tool Calling · RAG · Multi-Agent Systems · Workflow Orchestration
 
-#strong[Engineering & Tooling:] Python · C++ · Bash · SQL · Data Processing (NumPy, Pandas, torchvision) · Environment & Packaging (uv, ruff) · CI\/CD (Docker, GitHub Actions)
+#strong[Engineering:] Python · C++ · Bash · SQL · Docker · GitHub Actions . UV . Ruff
 
 == Community and Professional Service
 

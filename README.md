@@ -36,13 +36,11 @@ Jan 2026 – present
 
 - Leading end-to-end R&D of a multimodal video understanding system using natural-language instructions to flexibly segment, retrieve, and annotate long-form video
 
-- Deployed video-language action recognition models on Apple Silicon for Sony’s Remote Camera Tool, building an end-to-end Swift/Core ML inference pipeline on the Neural Engine with up to 53× faster inference and 19× lower peak memory
+- Deployed video-language action recognition models on Apple Silicon for Sony's Remote Camera Tool, building an end-to-end Swift/Core ML pipeline with up to 53× faster compute and 19× lower peak memory
 
-- Built agentic AI workflows for automated model optimization, improving inference speed and memory footprint of LLMs and VLMs for Apple Silicon
+- Developed compact vision-language models for image/video understanding and localization, achieving competitive accuracy at lower computational cost
 
-- Architected a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
-
-- Developed compact vision-language models supporting image/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
+- Built agentic model-optimization workflows and a modular ML acceleration framework for deploying LLMs/VLMs and CV models across NVIDIA GPUs, Qualcomm NPUs, and Apple Silicon
 
 
 
@@ -50,13 +48,13 @@ Jan 2026 – present
 
 Oct 2023 – Dec 2025
 
-- Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 Spotlight paper
+- Developed a geometric optimization method for low-rank adaptation, resulting in a NeurIPS 2025 Spotlight paper
 
-- Led optimization of Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
+- Led optimization of the Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
 
-- Led development and integration of 7 vision tasks, including depth estimation, surface normal prediction, super-resolution, and denoising, into a unified 17-task VFM
+- Led expansion of Argus into a unified 17-task vision foundation model, integrating 7 tasks including depth estimation, surface normals, super-resolution, and denoising
 
-- Architected and led development of a modular multi-task learning framework unifying OpenMMLab libraries into a single distributed training platform powering Sony's Argus VFM
+- Architected a distributed multi-task learning platform unifying OpenMMLab libraries and powering training of Sony’s Argus VFM
 
 
 
@@ -64,17 +62,13 @@ Oct 2023 – Dec 2025
 
 May 2019 – Aug 2023
 
-- Worked on differentially private machine learning with graph neural networks
+- Developed privacy-preserving machine learning methods for graph neural networks, with a focus on differential privacy
 
-- 3 papers in top-tier conferences (CCS, USENIX Security, and WSDM) with 340+ citations
+- Published 3 papers at top-tier venues including CCS, USENIX Security, and WSDM, accumulating 340+ citations
 
-- 7 invited talks at top universities and research institutions, including Imperial College, UIC, and Twitter
+- Released 6 open-source research projects with 130+ GitHub stars and delivered 7 invited talks at leading universities and research institutions
 
-- 6 open-source projects with 130+ stars on GitHub
-
-- 1 short course taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)
-
-- Finalist in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe
+- Taught a short course on Trustworthy Machine Learning at the Artificial Intelligence Doctoral Academy
 
 
 
@@ -87,15 +81,15 @@ Mar 2022 – May 2022
 
 
 # Skills and Expertise
-**Foundation & Generative Models:** Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
+**Foundation & Multimodal Models:** Vision-Language Models · Video Understanding · ViT · CLIP · LLaVA · Large Language Models (LLaMA, GPT, Qwen) · PEFT (LoRA) · Self-Supervised Learning (MAE, DINO)
 
-**Model Optimization & Deployment:** TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Apple CoreML / MLX · Optimum · Quantization · Graph Optimization · Performance Profiling
+**Model Optimization & Deployment:** Core ML · MLX · TensorRT · ONNX · Qualcomm QNN / QAIRT · Quantization · Graph Optimization · Performance Profiling · Heterogeneous Hardware Deployment
 
-**Machine Learning Frameworks:** PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
+**Machine Learning Systems:** PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection) · Distributed Training (DDP, FSDP)
 
 **Agentic AI & LLM Systems:** LangChain · LangGraph · MCP · Tool Calling · RAG · Multi-Agent Systems · Workflow Orchestration
 
-**Engineering & Tooling:** Python · C++ · Bash · SQL · Data Processing (NumPy, Pandas, torchvision) · Environment & Packaging (uv, ruff) · CI/CD (Docker, GitHub Actions)
+**Engineering:** Python · C++ · Bash · SQL · Docker · GitHub Actions . UV . Ruff
 
 # Community and Professional Service
 **Invited Speaker:** Imperial College London (2023, 2020), University of Illinois at Chicago (2022), L3S Research Center (2022), GNN User Group Meetup (2021), Twitter ML Seminar (2021)

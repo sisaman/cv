@@ -41,32 +41,29 @@ cv:
         start_date: 2026-01
         highlights:
           - Leading end-to-end R&D of a multimodal video understanding system using natural-language instructions to flexibly segment, retrieve, and annotate long-form video
-          - Deployed video-language action recognition models on Apple Silicon for Sony’s Remote Camera Tool, building an end-to-end Swift/Core ML inference pipeline on the Neural Engine with up to 53× faster inference and 19× lower peak memory
-          - Built agentic AI workflows for automated model optimization, improving inference speed and memory footprint of LLMs and VLMs for Apple Silicon
-          - Architected a modular ML acceleration and deployment framework supporting diverse hardware targets (Nvidia GPUs, Qualcomm NPUs, Apple Silicon)
-          - Developed compact vision-language models supporting image/video understanding and localization tasks, achieving competitive performance with reduced computational requirements
+          - Deployed video-language action recognition models on Apple Silicon for Sony's Remote Camera Tool, building an end-to-end Swift/Core ML pipeline with up to 53× faster compute and 19× lower peak memory
+          - Developed compact vision-language models for image/video understanding and localization, achieving competitive accuracy at lower computational cost
+          - Built agentic model-optimization workflows and a modular ML acceleration framework for deploying LLMs/VLMs and CV models across NVIDIA GPUs, Qualcomm NPUs, and Apple Silicon
       - company: Sony AI
         position: AI Engineer
         location: Zurich, Switzerland
         start_date: 2023-10
         end_date: 2025-12
         highlights:
-          - Designed a modular and flexible geometric optimization algorithm, enabling NeurIPS'25 Spotlight paper
-          - Led optimization of Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
-          - Led development and integration of 7 vision tasks, including depth estimation, surface normal prediction, super-resolution, and denoising, into a unified 17-task VFM
-          - Architected and led development of a modular multi-task learning framework unifying OpenMMLab libraries into a single distributed training platform powering Sony's Argus VFM
+          - Developed a geometric optimization method for low-rank adaptation, resulting in a NeurIPS 2025 Spotlight paper
+          - Led optimization of the Argus VFM inference stack across heterogeneous hardware, achieving up to 61× speedup across 17 vision tasks
+          - Led expansion of Argus into a unified 17-task vision foundation model, integrating 7 tasks including depth estimation, surface normals, super-resolution, and denoising
+          - Architected a distributed multi-task learning platform unifying OpenMMLab libraries and powering training of Sony’s Argus VFM
       - company: Idiap Research Institute
         position: Research Assistant
         location: Martigny, Switzerland
         start_date: 2019-05
         end_date: 2023-08
         highlights:
-          - Worked on differentially private machine learning with graph neural networks
-          - '3 papers in top-tier conferences (CCS, USENIX Security, and WSDM) with 340+ citations'
-          - '7 invited talks at top universities and research institutions, including Imperial College, UIC, and Twitter'
-          - '6 open-source projects with 130+ stars on GitHub'
-          - '1 short course taught on "Trustworthy Machine Learning" at [Artificial Intelligence Doctoral Academy](https://www.i-aida.org/course/an-introduction-to-trustworthy-machine-learning/)'
-          - 'Finalist in [CSAW Applied Research Competition](https://www.credential.net/5f54daed-b77f-4dd4-81c6-421ad7a2c2fb) for the best paper award in computer security in Europe'
+          - Developed privacy-preserving machine learning methods for graph neural networks, with a focus on differential privacy
+          - Published 3 papers at top-tier venues including CCS, USENIX Security, and WSDM, accumulating 340+ citations
+          - Released 6 open-source research projects with 130+ GitHub stars and delivered 7 invited talks at leading universities and research institutions
+          - Taught a short course on Trustworthy Machine Learning at the Artificial Intelligence Doctoral Academy
           # - 'Received a travel grant to attend [CISPA Summer School 2022](https://cispa.de/en/summer-school-2022) on Trustworthy Artificial Intelligence.'
       # - company: The Alan Turing Institute
       #   position: Visiting Collaborator
@@ -95,18 +92,18 @@ cv:
       #     - '1 semester course taught on "Fundamentals of Programming with Python"'
     
     Skills and Expertise:
-      - label: Foundation & Generative Models
-        details: Vision & Multimodal Models (ViT, CLIP, LLaVA) · Large Language Models (LLaMA, GPT, Qwen) · Parameter-Efficient Fine-Tuning (LoRA) · Self-Supervised Learning (MAE, DINO)
+      - label: Foundation & Multimodal Models
+        details: Vision-Language Models · Video Understanding · ViT · CLIP · LLaVA · Large Language Models (LLaMA, GPT, Qwen) · PEFT (LoRA) · Self-Supervised Learning (MAE, DINO)
       - label: Model Optimization & Deployment
-        details: TensorRT · ONNX · Qualcomm QNN / SNPE / QAIRT · Apple CoreML / MLX · Optimum · Quantization · Graph Optimization · Performance Profiling
-      - label: Machine Learning Frameworks
-        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection)
+        details: Core ML · MLX · TensorRT · ONNX · Qualcomm QNN / QAIRT · Quantization · Graph Optimization · Performance Profiling · Heterogeneous Hardware Deployment
+      - label: Machine Learning Systems
+        details: PyTorch · Hugging Face (Transformers, PEFT, Accelerate, Datasets) · OpenMMLab (MMCV, MMEngine, MMDetection) · Distributed Training (DDP, FSDP)
       - label: Agentic AI & LLM Systems
         details: LangChain · LangGraph · MCP · Tool Calling · RAG · Multi-Agent Systems · Workflow Orchestration
       # - label: Systems & Infrastructure
       #   details: Distributed Training (DDP, FSDP) · Mixed Precision (AMP, BF16) · Multi-Node GPU Clusters (Slurm, BeeGFS)
-      - label: Engineering & Tooling
-        details: Python · C++ · Bash · SQL · Data Processing (NumPy, Pandas, torchvision) · Environment & Packaging (uv, ruff) · CI/CD (Docker, GitHub Actions)
+      - label: Engineering
+        details: Python · C++ · Bash · SQL · Docker · GitHub Actions . UV . Ruff
 
     Community and Professional Service:
       - label: Invited Speaker
