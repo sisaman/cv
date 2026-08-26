@@ -354,23 +354,6 @@ Senior AI Engineer specializing in multimodal foundation models and video unders
 
 #regular-entry(
   [
-    #strong[#link("https://arxiv.org/pdf/1710.00818")[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks]]
-
-  ],
-  [
-    Aug 2019
-
-  ],
-  main-column-second-row: [
-    Sina Sajadmanesh, Sogol Bazargani, et al.
-
-    TKDD
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[#link("https://arxiv.org/pdf/1610.08469")[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web]]
 
   ],

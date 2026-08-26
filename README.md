@@ -165,16 +165,6 @@ IEEE Internet of Things Journal
 
 
 
-## **[Continuous-Time Relationship Prediction in Dynamic Heterogeneous Information Networks](https://arxiv.org/pdf/1710.00818)**
-
-Aug 2019
-
-Sina Sajadmanesh, Sogol Bazargani, et al.
-
-TKDD
-
-
-
 ## **[Kissing Cuisines: Exploring Worldwide Culinary Habits on the Web](https://arxiv.org/pdf/1610.08469)**
 
 Apr 2017
